@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+    --color-*: initial;
+    --color-light-red: #F88A62;
+    --color-red: #E0683C;
+    --color-brown: #6B2500;
+    --color-dark-brown: #481900;
+    --color-black: #000000;
+    --color-navy-blue: #22243D;
+    --color-yellow: #F2C158;
+    --color-tan: #FFF7E2;
+    --color-white: #F9F9FE;
+
+    --font-acme: 'Acme', sans-serif;
+    --font-ga-maamli: 'Ga Maamli', fantasy;
+}
+
+@font-face {
+    font-family: 'Acme';
+    src: url('../fonts/Acme-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ga Maamli';
+    src: url('../fonts/GaMaamli-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
