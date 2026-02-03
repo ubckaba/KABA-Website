@@ -1,0 +1,38 @@
+---
+import '../styles/global.css';
+
+import linkedin from '../assets/linkedin.svg';
+import instagram from '../assets/instagram.svg';
+import facebook from '../assets/facebook.svg';
+import youtube from '../assets/youtube.svg';
+import spotify from '../assets/spotify.svg';
+---
+
+<div class="flex bottom-0 z-50 w-full h-20
+items-center justify-center-safe gap-10
+bg-tan border-t-2 border-black">
+    <img id="instagram" src={instagram.src} alt="INSTAGRAM LOGO"
+    class="w-7 h-7"/>
+    <img id="facebook" src={facebook.src} alt="FACEBOOK LOGO"
+    class="w-7 h-7"/>
+    <img id="youtube" src={youtube.src} alt="YOUTUBE LOGO"
+    class="w-7 h-7"/>
+    <img id="spotify" src={spotify.src} alt="SPOTIFY LOGO"
+    class="w-7 h-7"/>
+    <img id="linkedin" src={linkedin.src} alt="LINKEDIN LOGO"
+    class="w-7 h-7"/>
+    <form class="flex h-min
+    gap-0
+    divide-x-2 divide-black">
+        <input type="email" placeholder="Enter your email here."
+        class="placeholder-gray font-acme text-base
+        bg-white border-y-2 border-l-2 border-black rounded-l-[20px]
+        py-1 px-15">
+        <button class="bg-red rounded-r-[20px] border-y-2 border-r-2 border-black
+        px-3 py-1
+        text-black font-acme text-base
+        hover:bg-light-red transition-all duration-200">
+            SUBSCRIBE TO OUR NEWSLETTER!
+        </button>
+    </form>
+</div>
