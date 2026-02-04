@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <!doctype html>
@@ -14,7 +16,9 @@ import "../styles/global.css";
 		<title>UBC KABABAYAN</title>
 	</head>
 	<body class="bg-yellow">
+		<Navigation />
 		<slot />
+		<Footer />
 	</body>
 </html>
 

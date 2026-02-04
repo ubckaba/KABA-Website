@@ -8,37 +8,39 @@ import youtube from '../assets/youtube.svg';
 import spotify from '../assets/spotify.svg';
 ---
 
-<div class="flex bottom-0 z-50 w-full h-20
+<div id="footer"
+class="flex bottom-0 z-50 w-full h-20
 items-center justify-center-safe gap-10
 bg-tan border-t-2 border-black">
-    <a href="https://www.instagram.com/ubckaba/" target="_blank">
+    <a id="instagram-link" href="https://www.instagram.com/ubckaba/" target="_blank">
         <img id="instagram" src={instagram.src} alt="INSTAGRAM LOGO"
         class="w-7 h-7"/>
     </a>
-    <a href="https://www.facebook.com/UBCKababayan" target="_blank">
+    <a id="facebook-link" href="https://www.facebook.com/UBCKababayan" target="_blank">
         <img id="facebook" src={facebook.src} alt="FACEBOOK LOGO"
         class="w-7 h-7"/>
     </a>
-    <a href="https://www.youtube.com/user/kababayanubc" target="_blank">
+    <a id="youtube-link" href="https://www.youtube.com/user/kababayanubc" target="_blank">
         <img id="youtube" src={youtube.src} alt="YOUTUBE LOGO"
         class="w-7 h-7"/>
     </a>
-    <a href="https://open.spotify.com/user/eiztp1sajgx5ozlpfpztjm25i" target="_blank">
+    <a id="spotify-link" href="https://open.spotify.com/user/eiztp1sajgx5ozlpfpztjm25i" target="_blank">
         <img id="spotify" src={spotify.src} alt="SPOTIFY LOGO"
         class="w-7 h-7"/>
     </a>
-    <a href="https://www.linkedin.com/company/ubc-kababayan-filipino-student-s-association/" target="_blank">
+    <a id="linkedin-link" href="https://www.linkedin.com/company/ubc-kababayan-filipino-student-s-association/" target="_blank">
         <img id="linkedin" src={linkedin.src} alt="LINKEDIN LOGO"
         class="w-7 h-7"/>
     </a>
-    <form class="flex h-min
+    <form id="newsletter-form" class="flex h-min
     gap-0
     divide-x-2 divide-black">
-        <input type="email" placeholder="Enter your email here."
+        <input id="newsletter-input" type="email" placeholder="Enter your email here."
         class="placeholder-gray font-acme text-base
         bg-white border-y-2 border-l-2 border-black rounded-l-[20px]
         py-1 px-15">
-        <button class="bg-red rounded-r-[20px] border-y-2 border-r-2 border-black
+        <button id="subscribe-button"
+        class="bg-red rounded-r-[20px] border-y-2 border-r-2 border-black
         px-3 py-1
         text-black font-acme text-base
         hover:bg-light-red transition-all duration-200">
