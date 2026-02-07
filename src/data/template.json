@@ -1,0 +1,408 @@
+{
+    "presidential": {
+        "department": "Presidential",
+        "color": "color-presidential",
+        "description": "The Presidential department overlooks the general flow of KABA as a club. They spearhead planning the monthly Kaba Konnect events that bring general and executive members together, as well as the annual end-of-year gala, Barrio Fiesta.",
+        "members": [
+            {
+                "name": "",
+                "position": "President",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Logistics Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Administrative Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Presidential Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "finance": {
+        "department": "Finance",
+        "color": "color-finance",
+        "description": "The Finance department is responsible for the financial management, oversight, and reporting of all club funds. They host fundraisers that are later allocated across KABA initiatives.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP Finance",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP Finance",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Finance Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "internals": {
+        "department": "Internals",
+        "color": "color-internals",
+        "description": "The Internals department handles executive relations and club memberships. The department plans our annual executive retreat, executive socials and community engagement.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP Internal",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP Internal",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Engagement Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Engagement Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Operations Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Membership Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Internal Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "externals": {
+        "department": "Externals",
+        "color": "color-externals",
+        "description": "The Externals department holds philanthropic events for non-profit organisations in the Philippines, as well as developing and maintaining sponsorships throughout the year. Additionally, the Externals department represents the club in the Association of Southeast Asian Clubs in UBC, and maintains ties with club alumni.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP External",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP External",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Partnership Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Partnership Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Philanthropy Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Philanthropy Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Outreach Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "External Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "academic": {
+        "department": "Academic",
+        "color": "color-academic",
+        "description": "The Academic department develops programs that enhance members’ professional, academic, and wellness development. They uphold the club’s correspondence with industry professionals and initiating projects that showcase Filipino culture and identity.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP Academic",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP Academic",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Cultural Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Cultural Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Development Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Community Wellness Director",
+                "year": "",
+                "major": "Social Work",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Academic Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "stulife": {
+        "department": "Student Life",
+        "color": "color-stulife",
+        "description": "The Student Life department manages the major KABA social events, including the KABArkada program, Icebreaker events, Halloween, and our annual FSA event, KABAlympics.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP Student Life",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP Student Life",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Social Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Social Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Inclusivity Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Inclusivity Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Events Logistics Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Student Life Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "communications": {
+        "department": "Communications",
+        "color": "color-communications",
+        "description": "The Communications department showcases the vibrant Filipino culture through the KABA website, KABAzine, and all other forms of media. With the department in two branches—Creatives and Marketing—they efficiently take charge of all forms of promotions and publicity for the club’s initiatives.",
+        "members": [
+            {
+                "name": "",
+                "position": "VP Creatives",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "VP Marketing",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "AVP Communications",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Graphics Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Graphics Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Visual Media Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Visual Media Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Zine Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Zine Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Web Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Marketing Director",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Creatives Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "",
+                "position": "Marketing Coordinator",
+                "year": "",
+                "major": "",
+                "headshot": "Default.jpg"
+            }
+        ]
+    }
+}

@@ -13,6 +13,14 @@
     --color-tan: #FFF7E2;
     --color-white: #F9F9FE;
 
+    --color-presidential: #d5a6bd;
+    --color-finance: #b6d7a8;
+    --color-internals: #9fc5e8;
+    --color-externals: #b4a7d6;
+    --color-academic: #ffe599;
+    --color-stulife: #f6b26b;
+    --color-communications: #dd7e6b;
+
     --font-acme: 'Acme', sans-serif;
     --font-ga-maamli: 'Ga Maamli', fantasy;
 }

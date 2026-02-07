@@ -1,0 +1,408 @@
+{
+    "presidential": {
+        "department": "Presidential",
+        "color": "color-presidential",
+        "description": "The Presidential department overlooks the general flow of KABA as a club. They spearhead planning the monthly Kaba Konnect events that bring general and executive members together, as well as the annual end-of-year gala, Barrio Fiesta.",
+        "members": [
+            {
+                "name": "Ela Chua",
+                "position": "Co-President",
+                "year": "3",
+                "major": "Media Studies",
+                "headshot": "Ela_Chua.jpg"
+            },
+            {
+                "name": "Jam Medenilla",
+                "position": "Co-President",
+                "year": "3",
+                "major": "Psychology + Creative Writing",
+                "headshot": "Jam_Medenilla.jpg"
+            },
+            {
+                "name": "Gabbie Chu",
+                "position": "Logistics Director",
+                "year": "3",
+                "major": "Psychology",
+                "headshot": "Gabbie_Chu.jpg"
+            },
+            {
+                "name": "Graciela Licardo",
+                "position": "Administrative Director",
+                "year": "4",
+                "major": "Global Resource Systems",
+                "headshot": "Ela_Licardo.jpg"
+            },
+            {
+                "name": "Julia Flores",
+                "position": "Presidential Coordinator",
+                "year": "2",
+                "major": "Biomedical Engineering",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "finance": {
+        "department": "Finance",
+        "color": "color-finance",
+        "description": "The Finance department is responsible for the financial management, oversight, and reporting of all club funds. They host fundraisers that are later allocated across KABA initiatives.",
+        "members": [
+            {
+                "name": "Anton Bersamira",
+                "position": "VP Finance",
+                "year": "2",
+                "major": "Accounting/Finance",
+                "headshot": "Anton_Bersamira.jpg"
+            },
+            {
+                "name": "Andrei Lizo",
+                "position": "AVP Finance",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Andrei_Lizo.jpg"
+            },
+            {
+                "name": "Ivan Belyaev",
+                "position": "Fundraising Director",
+                "year": "3",
+                "major": "Chemical & Biological Engineering",
+                "headshot": "Ivan_Belyaev.jpg"
+            },
+            {
+                "name": "Phina Mary Tran",
+                "position": "Finance Coordinator",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "internals": {
+        "department": "Internals",
+        "color": "color-internals",
+        "description": "The Internals department handles executive relations and club memberships. The department plans our annual executive retreat, executive socials and community engagement.",
+        "members": [
+            {
+                "name": "Lara Perez",
+                "position": "VP Internal",
+                "year": "3",
+                "major": "Business Technology Management",
+                "headshot": "Lara_Perez.jpg"
+            },
+            {
+                "name": "Sofia Gonzalez",
+                "position": "AVP Internal",
+                "year": "4",
+                "major": "Accounting + Business Technology Management",
+                "headshot": "Sofia_Gonzalez.jpg"
+            },
+            {
+                "name": "Miguel Rillera",
+                "position": "Engagement Director",
+                "year": "3",
+                "major": "Electrical Engineering",
+                "headshot": "Miguel_Rillera.jpg"
+            },
+            {
+                "name": "Anton Soller",
+                "position": "Engagement Director",
+                "year": "3",
+                "major": "Political Science (Politics, Policy, and Administration)",
+                "headshot": "Anton_Soller.jpg"
+            },
+            {
+                "name": "Annika Silayan",
+                "position": "Operations Director",
+                "year": "2",
+                "major": "Global Resource Systems",
+                "headshot": "Annika_Silayan.jpg"
+            },
+            {
+                "name": "Julianne Domingo",
+                "position": "Membership Director",
+                "year": "2",
+                "major": "Urban Studies",
+                "headshot": "Julianne_Domingo.jpg"
+            },
+            {
+                "name": "Kitkat Gonzalez",
+                "position": "Internal Coordinator",
+                "year": "1",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Marcus Ty",
+                "position": "Internal Coordinator",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "externals": {
+        "department": "Externals",
+        "color": "color-externals",
+        "description": "The Externals department holds philanthropic events for non-profit organisations in the Philippines, as well as developing and maintaining sponsorships throughout the year. Additionally, the Externals department represents the club in the Association of Southeast Asian Clubs in UBC, and maintains ties with club alumni.",
+        "members": [
+            {
+                "name": "Andrei Soller",
+                "position": "VP External",
+                "year": "4",
+                "major": "Business Technology Management",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Margaret Concepcion",
+                "position": "Partnership Director",
+                "year": "2",
+                "major": "Food, Nutrition & Health",
+                "headshot": "Margaret_Concepcion.jpg"
+            },
+            {
+                "name": "Maxine Narciso",
+                "position": "Philanthropy Director",
+                "year": "3",
+                "major": "Psychology",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Gerald James Briones",
+                "position": "Philanthropy Director",
+                "year": "3",
+                "major": "Psychology",
+                "headshot": "Gerald_James_Briones.jpg"
+            },
+            {
+                "name": "Maya Juliette Ga",
+                "position": "Outreach Director",
+                "year": "4",
+                "major": "Psychology",
+                "headshot": "Maya_Juliette_Ga.jpg"
+            },
+            {
+                "name": "Astrid Sy",
+                "position": "External Coordinator",
+                "year": "1",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Lenaum Palomo",
+                "position": "External Coordinator",
+                "year": "1",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "academic": {
+        "department": "Academic",
+        "color": "color-academic",
+        "description": "The Academic department develops programs that enhance members’ professional, academic, and wellness development. They uphold the club’s correspondence with industry professionals and initiating projects that showcase Filipino culture and identity.",
+        "members": [
+            {
+                "name": "Cass del Rosario",
+                "position": "VP Academic",
+                "year": "4",
+                "major": "Philosophy",
+                "headshot": "Cass_del_Rosario.jpg"
+            },
+            {
+                "name": "Azumi Abadilla",
+                "position": "AVP Academic",
+                "year": "3",
+                "major": "Arts",
+                "headshot": "Azumi_Abadilla.jpg"
+            },
+            {
+                "name": "Malaya Cruz",
+                "position": "Cultural Director",
+                "year": "3",
+                "major": "International Relations",
+                "headshot": "Malaya_Cruz.jpg"
+            },
+            {
+                "name": "Damarise Carcellar",
+                "position": "Cultural Director",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Damarise_Carcellar.jpg"
+            },
+            {
+                "name": "Jaclyn Canlas",
+                "position": "Development Director",
+                "year": "4",
+                "major": "Integrated Engineering",
+                "headshot": "Jaclyn_Canlas.jpg"
+            },
+            {
+                "name": "Christian Sanchez",
+                "position": "Community Wellness Director",
+                "year": "3",
+                "major": "Social Work",
+                "headshot": "Christian_Sanchez.jpg"
+            },
+            {
+                "name": "Lexine Rollo",
+                "position": "Academic Coordinator",
+                "year": "1",
+                "major": "Arts",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "stulife": {
+        "department": "Student Life",
+        "color": "color-stulife",
+        "description": "The Student Life department manages the major KABA social events, including the KABArkada program, Icebreaker events, Halloween, and our annual FSA event, KABAlympics.",
+        "members": [
+            {
+                "name": "Jasmine Baluyut",
+                "position": "VP Student Life",
+                "year": "3",
+                "major": "Political Science",
+                "headshot": "Jasmine_Baluyut.jpg"
+            },
+            {
+                "name": "Ilyas Ishenaliev",
+                "position": "AVP Student Life",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Ilyas_Ishenaliev.jpg"
+            },
+            {
+                "name": "Liam Nicolas",
+                "position": "Social Director",
+                "year": "2",
+                "major": "Arts",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Princess dela Cruz",
+                "position": "Social Director",
+                "year": "2",
+                "major": "Civil Engineering",
+                "headshot": "Princess_dela_Cruz.jpg"
+            },
+            {
+                "name": "Zaiden Grayda-Reyes",
+                "position": "Inclusivity Director",
+                "year": "2",
+                "major": "Flute",
+                "headshot": "Zaiden_Grayda-Reyes.jpg"
+            },
+            {
+                "name": "Bethany Ventura Parel",
+                "position": "Inclusivity Director",
+                "year": "3",
+                "major": "Political Science + International Relations",
+                "headshot": "Bethany_Ventura_Parel.jpg"
+            },
+            {
+                "name": "Inigo Martinez",
+                "position": "Events Logistics Director",
+                "year": "3",
+                "major": "Psychology",
+                "headshot": "Inigo_Martinez.jpg"
+            },
+            {
+                "name": "Aaliyah Cabiles",
+                "position": "Student Life Coordinator",
+                "year": "1",
+                "major": "Business & Computer Science",
+                "headshot": "Default.jpg"
+            }
+        ]
+    },
+    "communications": {
+        "department": "Communications",
+        "color": "color-communications",
+        "description": "The Communications department showcases the vibrant Filipino culture through the KABA website, KABAzine, and all other forms of media. With the department in two branches—Creatives and Marketing—they efficiently take charge of all forms of promotions and publicity for the club’s initiatives.",
+        "members": [
+            {
+                "name": "Becky Edwards",
+                "position": "VP Creatives",
+                "year": "2",
+                "major": "Urban Studies",
+                "headshot": "Becky_Edwards.jpg"
+            },
+            {
+                "name": "Janica Silverio",
+                "position": "VP Marketing",
+                "year": "3",
+                "major": "Psychology",
+                "headshot": "Janica_Silverio.jpg"
+            },
+            {
+                "name": "Alexi Manning",
+                "position": "AVP Communications",
+                "year": "3",
+                "major": "Cognitive Systems (Computational Intelligence & Design)",
+                "headshot": "Alexi_Manning.jpg"
+            },
+            {
+                "name": "Argem Matanguihan",
+                "position": "Graphics Director",
+                "year": "2",
+                "major": "Commerce",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Vaughn Tan",
+                "position": "Graphics Director",
+                "year": "3",
+                "major": "English Literature",
+                "headshot": "Vaughn_Tan.jpg"
+            },
+            {
+                "name": "Francheska Magbanua",
+                "position": "Visual Media Director",
+                "year": "3",
+                "major": "Biology",
+                "headshot": "Francheska_Magbanua.jpg"
+            },
+            {
+                "name": "Charlemagne Chua",
+                "position": "Visual Media Director",
+                "year": "3",
+                "major": "Accounting",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Patricia Bueno",
+                "position": "Zine Director",
+                "year": "3",
+                "major": "Landscape Architecture",
+                "headshot": "Patricia_Bueno.jpg"
+            },
+            {
+                "name": "Reiana Co",
+                "position": "Zine Director",
+                "year": "4",
+                "major": "Psychology",
+                "headshot": "Reiana_Co.jpg"
+            },
+            {
+                "name": "Ryota Muramatsu",
+                "position": "Marketing Director",
+                "year": "3",
+                "major": "Interdisciplinary Studies",
+                "headshot": "Ryota_Muramatsu.jpg"
+            },
+            {
+                "name": "Mikaela Reyes",
+                "position": "Creatives Coordinator",
+                "year": "2",
+                "major": "Psychology + Political Science",
+                "headshot": "Default.jpg"
+            },
+            {
+                "name": "Christophe Manapat",
+                "position": "Marketing Coordinator",
+                "year": "1",
+                "major": "Film Production",
+                "headshot": "Default.jpg"
+            }
+        ]
+    }
+}
