@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+
+const title = "About Us";
+const descrip = "Pitch KABA here -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+const button = "Get your membership here!";
+---
+
+<div id="gallery-container"
+class="w-full h-min grid grid-cols-1
+mx-50 my-25 gap-4">
+    <div id="gallery-text"
+    class="gap-2 mx-8
+    grid grid-cols-1">
+        <a id="gallery-title"
+        class="text-brown font-ga-maamli text-6xl uppercase
+        ">
+            {title}
+        </a>
+
+        <a id="gallery-descrip"
+        class="text-brown font-acme text-lg
+        ">
+            {descrip}
+        </a>
+    </div>
+
+    <div id="gallery-card"
+    class="bg-tan border-2 border-black w-full h-min rounded-[20px]
+    p-10">
+        <div id="gallery"
+        class="grid grid-cols-7
+        gap-0
+        divide-x-2 divide-y-2 divide-black">
+            <div id="gallery-top"
+            class="col-span-7 w-full h-13
+            bg-navy-blue rounded-t-[20px] border-black border-t-2 border-x-2">
+            </div>
+            <div class="row-span-2 col-span-4 w-full h-full
+            bg-white border-l-2">
+            </div>
+            <div class="w-full h-20 col-span-3
+            bg-white border-r-2">
+            </div>
+            <div class="w-full h-20 col-span-3
+            bg-white border-r-2">
+            </div>
+            <button id="gallery-button"
+            class="col-span-7 w-full h-min
+            items-center-safe justify-center-safe py-6
+            bg-red rounded-b-[20px] border-black border-b-2 border-x-2
+            text-black font-acme text-xl uppercase
+            hover:bg-light-red transition-all duration-200">
+                {button}
+            </button>
+        </div>
+    </div>
+</div>
