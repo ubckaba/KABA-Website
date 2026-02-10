@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+
+const name = "Ela Chua";
+const position = "Co-President";
+const year = "3";
+const major = "Media Studies";
+---
+
+<div id="member-card"
+class="grid grid-cols-1
+gap-0
+divide-y-2 divide-black">
+    <div id="member-top"
+    class="w-full h-13
+    bg-navy-blue rounded-t-[20px] border-black border-t-2 border-x-2">
+
+    </div>
+
+    <div class="bg-white border-x-2
+    h-100 w-full">
+
+    </div>
+
+    <div id="member-bottom"
+    class="bg-red rounded-b-[20px] border-black border-b-2 border-x-2
+    w-full h-min grid grid-cols-1
+    items-center-safe justify-center-safe py-2 px-4 gap-0
+    font-acme
+    hover:bg-light-red transition-all duration-200">
+        <a id="member-name"
+        class="text-xl uppercase text-black">
+                {name}
+        </a>
+
+        <a id="member-position"
+        class="text-xl text-brown">
+                {position}
+        </a>
+
+        <a id="member-year"
+        class="text-lg text-brown">
+                Year {year}
+        </a>
+
+        <a id="member-major"
+        class="text-lg text-brown">
+                {major}
+        </a>
+    </div>
+</div>
