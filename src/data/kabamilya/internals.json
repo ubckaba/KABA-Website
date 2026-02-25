@@ -1,0 +1,58 @@
+[
+    {
+        "id": "Lara Perez",
+        "position": "VP Internal",
+        "year": "3",
+        "major": "Business Technology Management",
+        "headshot": "headshots/Lara_Perez.jpg"
+    },
+    {
+        "id": "Sofia Gonzalez",
+        "position": "AVP Internal",
+        "year": "4",
+        "major": "Accounting + Business Technology Management",
+        "headshot": "headshots/Sofia_Gonzalez.jpg"
+    },
+    {
+        "id": "Miguel Rillera",
+        "position": "Engagement Director",
+        "year": "3",
+        "major": "Electrical Engineering",
+        "headshot": "headshots/Miguel_Rillera.jpg"
+    },
+    {
+        "id": "Anton Soller",
+        "position": "Engagement Director",
+        "year": "3",
+        "major": "Political Science (Politics, Policy, and Administration)",
+        "headshot": "headshots/Anton_Soller.jpg"
+    },
+    {
+        "id": "Annika Silayan",
+        "position": "Operations Director",
+        "year": "2",
+        "major": "Global Resource Systems",
+        "headshot": "headshots/Annika_Silayan.jpg"
+    },
+    {
+        "id": "Julianne Domingo",
+        "position": "Membership Director",
+        "year": "2",
+        "major": "Urban Studies",
+        "headshot": "headshots/Julianne_Domingo.jpg"
+    },
+    {
+        "id": "Kitkat Gonzalez",
+        "position": "Internal Coordinator",
+        "year": "1",
+        "major": "Commerce",
+        "headshot": "headshots/Default.jpg"
+    },
+    {
+        "id": "Marcus Ty",
+        "position": "Internal Coordinator",
+        "year": "2",
+        "major": "Commerce",
+        "headshot": "headshots/Default.jpg"
+    }
+]

@@ -1,14 +1,62 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import GalleryCard from '../components/GalleryCard.astro';
 import CardContainer from '../components/CardContainer.astro';
+import SectionBody from '../components/SectionBody.astro';
+import SectionTitle from '../components/SectionTitle.astro';
 ---
 
 <Layout>
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->
-		<GalleryCard />
-		<CardContainer />
+		<div id="presidential"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='presidential'/>
+		</div>
+		<div id="finance"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='finance'/>
+		</div>
+		<div id="internals"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='internals'/>
+		</div>
+		<div id="externals"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='externals'/>
+		</div>
+		<div id="academic"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='academic'/>
+		</div>
+		<div id="stulife"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='stulife'/>
+		</div>
+		<div id="communications"
+		class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<SectionBody />
+			<CardContainer dept='communications'/>
+		</div>
 	</div>
 </Layout>

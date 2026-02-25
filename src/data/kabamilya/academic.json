@@ -1,0 +1,51 @@
+[
+    {
+        "id": "Cass del Rosario",
+        "position": "VP Academic",
+        "year": "4",
+        "major": "Philosophy",
+        "headshot": "headshots/Cass_del_Rosario.jpg"
+    },
+    {
+        "id": "Azumi Abadilla",
+        "position": "AVP Academic",
+        "year": "3",
+        "major": "Arts",
+        "headshot": "headshots/Azumi_Abadilla.jpg"
+    },
+    {
+        "id": "Malaya Cruz",
+        "position": "Cultural Director",
+        "year": "3",
+        "major": "Global Resource Systems",
+        "headshot": "headshots/Malaya_Cruz.jpg"
+    },
+    {
+        "id": "Damarise Carcellar",
+        "position": "Cultural Director",
+        "year": "2",
+        "major": "Commerce",
+        "headshot": "headshots/Damarise_Carcellar.jpg"
+    },
+    {
+        "id": "Jaclyn Canlas",
+        "position": "Development Director",
+        "year": "4",
+        "major": "Integrated Engineering",
+        "headshot": "headshots/Jaclyn_Canlas.jpg"
+    },
+    {
+        "id": "Christian Sanchez",
+        "position": "Community Wellness Director",
+        "year": "3",
+        "major": "Social Work",
+        "headshot": "headshots/Christian_Sanchez.jpg"
+    },
+    {
+        "id": "Lexine Rollo",
+        "position": "Academic Coordinator",
+        "year": "1",
+        "major": "Arts",
+        "headshot": "headshots/Default.jpg"
+    }
+]

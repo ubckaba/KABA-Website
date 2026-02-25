@@ -2,13 +2,20 @@
 import Layout from '../layouts/Layout.astro';
 import GalleryCard from '../components/GalleryCard.astro';
 import CardContainer from '../components/CardContainer.astro';
+import SectionTitle from '../components/SectionTitle.astro'
+import SectionBody from '../components/SectionBody.astro';
 ---
 
 <Layout>
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->
-		<GalleryCard />
+		<div class="grid grid-cols-1
+		gap-4">
+			<SectionTitle />
+			<GalleryCard />
+			<SectionBody />
+		</div>
 		<CardContainer />
 	</div>
 </Layout>

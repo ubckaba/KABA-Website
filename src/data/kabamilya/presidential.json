@@ -1,0 +1,37 @@
+[
+    {
+        "id": "Ela Chua",
+        "position": "Co-President",
+        "year": "3",
+        "major": "Media Studies",
+        "headshot": "headshots/Ela_Chua.jpg"
+    },
+    {
+        "id": "Jam Medenilla",
+        "position": "Co-President",
+        "year": "3",
+        "major": "Psychology + Creative Writing",
+        "headshot": "headshots/Jam_Medenilla.jpg"
+    },
+    {
+        "id": "Gabbie Chu",
+        "position": "Logistics Director",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/Gabbie_Chu.jpg"
+    },
+    {
+        "id": "Graciela Licardo",
+        "position": "Administrative Director",
+        "year": "4",
+        "major": "Global Resource Systems",
+        "headshot": "headshots/Graciela_Licardo.jpg"
+    },
+    {
+        "id": "Julia Flores",
+        "position": "Presidential Coordinator",
+        "year": "2",
+        "major": "Biomedical Engineering",
+        "headshot": "headshots/Default.jpg"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "Becky Edwards",
+        "position": "VP Creatives",
+        "year": "2",
+        "major": "Urban Studies",
+        "headshot": "headshots/Becky_Edwards.jpg"
+    },
+    {
+        "id": "Janica Silverio",
+        "position": "VP Marketing",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/Janica_Silverio.jpg"
+    },
+    {
+        "id": "Alexi Manning",
+        "position": "AVP Communications",
+        "year": "3",
+        "major": "Cognitive Systems (Computational Intelligence & Design)",
+        "headshot": "headshots/Alexi_Manning.jpg"
+    },
+    {
+        "id": "Argem Matanguihan",
+        "position": "Graphics Director",
+        "year": "2",
+        "major": "Commerce",
+        "headshot": "headshots/Default.jpg"
+    },
+    {
+        "id": "Vaughn Tan",
+        "position": "Graphics Director",
+        "year": "3",
+        "major": "English Literature",
+        "headshot": "headshots/Vaughn_Tan.jpg"
+    },
+    {
+        "id": "Francheska Magbanua",
+        "position": "Visual Media Director",
+        "year": "3",
+        "major": "Biology",
+        "headshot": "headshots/Francheska_Magbanua.jpg"
+    },
+    {
+        "id": "Charlemagne Chua",
+        "position": "Visual Media Director",
+        "year": "3",
+        "major": "Accounting",
+        "headshot": "headshots/Default.jpg"
+    },
+    {
+        "id": "Patricia Bueno",
+        "position": "Zine Director",
+        "year": "3",
+        "major": "Landscape Architecture",
+        "headshot": "headshots/Patricia_Bueno.jpg"
+    },
+    {
+        "id": "Reiana Co",
+        "position": "Zine Director",
+        "year": "4",
+        "major": "Psychology",
+        "headshot": "headshots/Reiana_Co.jpg"
+    },
+    {
+        "id": "Ryota Muramatsu",
+        "position": "Marketing Director",
+        "year": "3",
+        "major": "Interdisciplinary Studies",
+        "headshot": "headshots/Ryota_Muramatsu.jpg"
+    },
+    {
+        "id": "Mikaela Reyes",
+        "position": "Creatives Coordinator",
+        "year": "2",
+        "major": "Psychology + Political Science",
+        "headshot": "headshots/Default.jpg"
+    },
+    {
+        "id": "Christophe Manapat",
+        "position": "Marketing Coordinator",
+        "year": "1",
+        "major": "Film Production",
+        "headshot": "headshots/Default.jpg"
+    }
+]
