@@ -1,6 +1,21 @@
 ---
 import "../styles/global.css";
 import logo from '../assets/KABA White Logo.png';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props as Props;
+
+const defaultStyle = "bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50 text-black font-acme text-base py-2 mt-3 hover:mt-1 hover:bg-light-red transition-all duration-200" as string;
+const focusStyle = "bg-light-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50 text-black font-acme text-base py-2 mt-1" as string;
+
+const home = currentPath === "/" ? focusStyle : defaultStyle;
+const kabamilya = currentPath === "/kabamilya" ? focusStyle : defaultStyle;
+const kabaAlbum = currentPath === "/kaba-album" ? focusStyle : defaultStyle;
+const kabazine = currentPath === "/kabazine" ? focusStyle : defaultStyle;
+const filoTalks = currentPath === "/filo-talks" ? focusStyle : defaultStyle;
 ---
 
 <div id="nav-bar"
@@ -19,38 +34,23 @@ bg-tan border-b-2 border-black">
     <div id="nav-buttons"
     class="flex justify-self-end text-center gap-0">
         <a id="home-button" href="/"
-        class="bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50
-        text-black font-acme text-base
-        py-2 mt-3
-        hover:mt-1 hover:bg-light-red transition-all duration-200">
+        class={home}>
             HOME
         </a>
         <a id="kabamilya-button" href="/kabamilya"
-        class="bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50
-        text-black font-acme text-base
-        py-2 mt-3
-        hover:mt-1 hover:bg-light-red transition-all duration-200">
+        class={kabamilya}>
             KABAMILYA
         </a>
         <a id="kaba-album-button" href="/kaba-album"
-        class="bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50
-        text-black font-acme text-base
-        py-2 mt-3
-        hover:mt-1 hover:bg-light-red transition-all duration-200">
+        class={kabaAlbum}>
             KABA ALBUM
         </a>
         <a id="kabazine-button" href="/kabazine"
-        class="bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50
-        text-black font-acme text-base
-        py-2 mt-3
-        hover:mt-1 hover:bg-light-red transition-all duration-200">
+        class={kabazine}>
             KABAZINE
         </a>
         <a id="filotalks-button" href="/filo-talks"
-        class="bg-red border-x-2 border-t-2 border-black rounded-t-[20px] w-50
-        text-black font-acme text-base
-        py-2 mt-3
-        hover:mt-1 hover:bg-light-red transition-all duration-200">
+        class={filoTalks}>
             FILOTALKS
         </a>
     </div>

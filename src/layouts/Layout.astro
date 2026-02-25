@@ -2,6 +2,8 @@
 import "../styles/global.css";
 import Navigation from "../components/Navigation.astro";
 import Footer from '../components/Footer.astro';
+
+const currPath = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -16,7 +18,7 @@ import Footer from '../components/Footer.astro';
 		<title>UBC KABABAYAN</title>
 	</head>
 	<body class="bg-yellow flex flex-col min-h-screen">
-		<Navigation />
+		<Navigation currentPath={currPath} />
 		<main class="flex-auto">
 			<slot />
 		</main>
