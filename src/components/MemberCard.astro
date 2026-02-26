@@ -10,7 +10,7 @@ const headshot = Astro.props;
 ---
 
 <div id="member-card"
-class="grid grid-cols-1
+class="flex flex-col
 gap-0
 divide-y-2 divide-black">
     <div id="member-top"
@@ -20,15 +20,15 @@ divide-y-2 divide-black">
     </div>
 
     <div class="border-x-2 border-black
-    w-full h-min aspect-4/5 overflow-hidden">
+    w-full h-min aspect-6/7 overflow-hidden">
         <img src={Astro.props.headshot}
         class="w-full h-min object-cover"/>
     </div>
 
     <div id="member-bottom"
     class="bg-red rounded-b-[20px] border-black border-b-2 border-x-2
-    w-full h-min grid grid-cols-1
-    items-center-safe justify-center-safe py-2 px-4 gap-0
+    w-full grid grid-cols-1
+    items-center justify-center py-2 px-4 gap-0
     font-acme">
         <a id="member-name"
         class="text-xl uppercase text-black">
