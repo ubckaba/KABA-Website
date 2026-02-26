@@ -1,14 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import GalleryCard from '../components/GalleryCard.astro';
-import CardContainer from '../components/CardContainer.astro';
+import SectionTitle from '../components/SectionTitle.astro';
+import SectionBody from '../components/SectionBody.astro';
+import { getCollection } from 'astro:content';
+
+const events: any[] = await getCollection('kabaAlbum' as any);
 ---
 
 <Layout>
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->
-		<GalleryCard />
-		<CardContainer />
+
+		{events.map(event => (
+			<div class="grid grid-cols-1
+			gap-4">
+				<SectionTitle title={event.data.title}/>
+				<GalleryCard text="OPEN THE PHOTO ALBUM!" cover={event.data.cover} image1={event.data.image1} image2={event.data.image2} link={event.data.link}/>
+				<SectionBody descrip={event.data.description}/>
+			</div>
+		))}
+
 	</div>
 </Layout>

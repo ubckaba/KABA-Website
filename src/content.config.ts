@@ -9,6 +9,19 @@ import { z } from 'astro/zod';
 
 // 4. Define your collection(s)
 
+const kabaAlbum = defineCollection({
+    loader: glob({ pattern: ['*.json', '!template.json'], base: "./src/data/kaba-album" }),
+    schema: z.object({
+        id: z.string(),
+        title: z.string(),
+        cover: z.string(),
+        image1: z.string(),
+        image2: z.string(),
+        link: z.string().url(),
+        description: z.string()
+    })
+});
+
 const kabatalks = defineCollection({
     loader: glob({ pattern: ['*.json', '!template.json'], base: "./src/data/kabatalks" }),
     schema: z.object({
@@ -108,4 +121,4 @@ const communications = defineCollection({
 });
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { kabatalks, kabamilya, presidential, finance, internals, externals, academic, stulife, communications };
+export const collections = { kabaAlbum, kabatalks, kabamilya, presidential, finance, internals, externals, academic, stulife, communications };
