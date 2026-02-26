@@ -8,6 +8,15 @@ import { glob, file } from 'astro/loaders';
 import { z } from 'astro/zod';
 
 // 4. Define your collection(s)
+
+const kabamilya = defineCollection({
+    loader: file('src/data/kabamilya.json'),
+    schema: z.object({
+        id: z.string(),
+        description: z.string()
+    })
+})
+
 const presidential = defineCollection({
     loader: file('src/data/kabamilya/presidential.json'),
     schema: z.object({
@@ -86,4 +95,4 @@ const communications = defineCollection({
 });
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { presidential, finance, internals, externals, academic, stulife, communications };
+export const collections = { kabamilya, presidential, finance, internals, externals, academic, stulife, communications };

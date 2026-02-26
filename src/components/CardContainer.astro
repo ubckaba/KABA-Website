@@ -5,7 +5,6 @@ import { getCollection } from 'astro:content';
 
 const { dept } = Astro.props;
 const members: any[] = await getCollection(dept as any);
-
 ---
 
 <div id="card-container"
@@ -13,6 +12,6 @@ class="w-full h-min grid grid-cols-4
 bg-tan border-2 border-black rounded-[20px]
 p-10 gap-x-0 gap-y-4">
     {members.map(member => (
-        <MemberCard id={member.data.id} position={member.data.position} year={member.data.year} major={member.data.major} headshot={member.data.headshot}/>
+        <MemberCard id={member.data.id} position={member.data.position} year={member.data.year} major={member.data.major} headshot={member.data.headshot} />
     ))}
 </div>

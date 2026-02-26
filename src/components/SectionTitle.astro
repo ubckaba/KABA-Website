@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css'
 
-const title = "About Us";
+const title = Astro.props;
 ---
 
 
@@ -11,6 +11,6 @@ grid grid-cols-1">
     <a id="gallery-title"
     class="text-brown font-ga-maamli text-6xl uppercase
     ">
-        {title}
+        {Astro.props.title}
     </a>
 </div>
