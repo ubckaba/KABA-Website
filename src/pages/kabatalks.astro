@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GalleryCard from '../components/GalleryCard.astro';
+import SectionTitle from '../components/SectionTitle.astro';
+import SectionBody from '../components/SectionBody.astro';
+import { getCollection } from 'astro:content';
+
+const episodes: any[] = await getCollection('kabatalks' as any);
+---
+
+<Layout>
+	<div class="justify-center items-center grid grid-cols-1
+	mx-50 my-25 gap-25">
+		<!-- Page content goes here -->
+
+		{episodes.map(episode => (
+			<div class="grid grid-cols-1
+			gap-4">
+				<SectionTitle title={episode.data.title}/>
+				<GalleryCard text="WATCH THE PODCAST ON YOUTUBE!" cover={episode.data.cover} image1={episode.data.image1} image2={episode.data.image2} link={episode.data.link}/>
+				<SectionBody descrip={episode.data.description}/>
+			</div>
+		))}
+
+	</div>
+</Layout>
