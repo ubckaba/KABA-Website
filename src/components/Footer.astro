@@ -37,10 +37,13 @@ bg-tan border-t-2 border-black">
         class="w-7 h-7
         hover:brightness-200"/>
     </a>
-    <form novalidate id="newsletter-form" class="flex h-min
+    
+    <iframe name="hidden_iframe" class="hidden"></iframe>
+    <form id="newsletter-form" method="POST" action="/api/subscribe" target="hidden_iframe"
+    class="flex h-min
     gap-0
     divide-x-2 divide-black">
-        <input id="newsletter-input" type="email" placeholder="Enter your email here."
+        <input id="newsletter-input" name="newsletter-input" type="email" placeholder="Enter your email here."
         class="placeholder-gray font-acme text-base no
         bg-white border-y-2 border-l-2 border-black rounded-l-[20px]
         py-1 px-15">
