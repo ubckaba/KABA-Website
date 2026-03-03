@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import CardContainer from '../components/CardContainer.astro';
 import SectionBody from '../components/SectionBody.astro';
 import SectionTitle from '../components/SectionTitle.astro';
+import PageTitle from '../components/PageTitle.astro';
+import PageBody from '../components/PageBody.astro';
 import { getEntry } from 'astro:content';
 
 const presidential = await getEntry('kabamilya' as any, 'Presidential');
@@ -15,6 +17,12 @@ const communications = await getEntry('kabamilya' as any, 'Communications');
 ---
 
 <Layout>
+	<div class="justify-center items-center grid grid-cols-1
+	mx-40 my-25 gap-4">
+		<PageTitle title="Kabamilya"/>
+		<PageBody descrip="At UBC KABABAYAN, we are all one big PAMILYA /paˈmilja/, meaning FAMILY! Meet our KABAMILYA -- the executive members that make everything happen!"/>
+	</div>
+
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->

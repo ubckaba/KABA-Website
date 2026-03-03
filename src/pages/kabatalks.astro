@@ -3,12 +3,20 @@ import Layout from '../layouts/Layout.astro';
 import GalleryCard from '../components/GalleryCard.astro';
 import SectionTitle from '../components/SectionTitle.astro';
 import SectionBody from '../components/SectionBody.astro';
+import PageBody from '../components/PageBody.astro';
+import PageTitle from '../components/PageTitle.astro';
 import { getCollection } from 'astro:content';
 
 const episodes: any[] = await getCollection('kabatalks' as any);
 ---
 
 <Layout>
+	<div class="justify-center items-center grid grid-cols-1
+	mx-40 my-25 gap-4">
+		<PageTitle title="KABATALKS"/>
+		<PageBody descrip="Our podcast where we discuss everything about being Filipino :)"/>
+	</div>
+
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->
