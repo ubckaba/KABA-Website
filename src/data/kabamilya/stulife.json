@@ -18,7 +18,7 @@
         "position": "Social Director",
         "year": "2",
         "major": "Arts",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     },
     {
         "id": "Princess dela Cruz",
@@ -53,6 +53,6 @@
         "position": "Student Life Coordinator",
         "year": "1",
         "major": "Business & Computer Science",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     }
 ]

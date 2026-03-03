@@ -46,13 +46,13 @@
         "position": "Internal Coordinator",
         "year": "1",
         "major": "Commerce",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     },
     {
         "id": "Marcus Ty",
         "position": "Internal Coordinator",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     }
 ]

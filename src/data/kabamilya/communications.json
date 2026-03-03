@@ -25,7 +25,7 @@
         "position": "Graphics Director",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     },
     {
         "id": "Vaughn Tan",
@@ -46,7 +46,7 @@
         "position": "Visual Media Director",
         "year": "3",
         "major": "Accounting",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     },
     {
         "id": "Patricia Bueno",
@@ -74,13 +74,13 @@
         "position": "Creatives Coordinator",
         "year": "2",
         "major": "Psychology + Political Science",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     },
     {
         "id": "Christophe Manapat",
         "position": "Marketing Coordinator",
         "year": "1",
         "major": "Film Production",
-        "headshot": "headshots/Default.jpg"
+        "headshot": "headshots/Default.png"
     }
 ]
