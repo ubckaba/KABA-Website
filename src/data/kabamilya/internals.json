@@ -4,55 +4,63 @@
         "position": "VP Internal",
         "year": "3",
         "major": "Business Technology Management",
-        "headshot": "headshots/Lara_Perez.jpg"
+        "headshot": "headshots/Lara_Perez.jpg",
+        "seq": "1"
     },
     {
         "id": "Sofia Gonzalez",
         "position": "AVP Internal",
         "year": "4",
         "major": "Accounting + Business Technology Management",
-        "headshot": "headshots/Sofia_Gonzalez.jpg"
+        "headshot": "headshots/Sofia_Gonzalez.jpg",
+        "seq": "2"
     },
     {
         "id": "Miguel Rillera",
         "position": "Engagement Director",
         "year": "3",
         "major": "Electrical Engineering",
-        "headshot": "headshots/Miguel_Rillera.jpg"
+        "headshot": "headshots/Miguel_Rillera.jpg",
+        "seq": "3"
     },
     {
         "id": "Anton Soller",
         "position": "Engagement Director",
         "year": "3",
         "major": "Political Science (Politics, Policy, and Administration)",
-        "headshot": "headshots/Anton_Soller.jpg"
+        "headshot": "headshots/Anton_Soller.jpg",
+        "seq": "4"
     },
     {
         "id": "Annika Silayan",
         "position": "Operations Director",
         "year": "2",
         "major": "Global Resource Systems",
-        "headshot": "headshots/Annika_Silayan.jpg"
+        "headshot": "headshots/Annika_Silayan.jpg",
+        "seq": "5"
     },
     {
         "id": "Julianne Domingo",
         "position": "Membership Director",
         "year": "2",
         "major": "Urban Studies",
-        "headshot": "headshots/Julianne_Domingo.jpg"
+        "headshot": "headshots/Julianne_Domingo.jpg",
+        "seq": "6"
     },
     {
         "id": "Kitkat Gonzalez",
         "position": "Internal Coordinator",
         "year": "1",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "7"
     },
     {
         "id": "Marcus Ty",
         "position": "Internal Coordinator",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "8"
     }
 ]

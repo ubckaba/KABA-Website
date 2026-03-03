@@ -4,55 +4,63 @@
         "position": "VP Student Life",
         "year": "3",
         "major": "Political Science",
-        "headshot": "headshots/Jasmine_Baluyut.jpg"
+        "headshot": "headshots/Jasmine_Baluyut.jpg",
+        "seq": "1"
     },
     {
         "id": "Ilyas Ishenaliev",
         "position": "AVP Student Life",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Ilyas_Ishenaliev.jpg"
+        "headshot": "headshots/Ilyas_Ishenaliev.jpg",
+        "seq": "2"
     },
     {
         "id": "Liam Nicolas",
         "position": "Social Director",
         "year": "2",
         "major": "Arts",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "3"
     },
     {
         "id": "Princess dela Cruz",
         "position": "Social Director",
         "year": "2",
         "major": "Civil Engineering",
-        "headshot": "headshots/Princess_dela_Cruz.jpg"
+        "headshot": "headshots/Princess_dela_Cruz.jpg",
+        "seq": "4"
     },
     {
         "id": "Zaiden Grayda-Reyes",
         "position": "Inclusivity Director",
         "year": "2",
         "major": "Flute",
-        "headshot": "headshots/Zaiden_Grayda-Reyes.jpg"
+        "headshot": "headshots/Zaiden_Grayda-Reyes.jpg",
+        "seq": "5"
     },
     {
         "id": "Bethany Ventura Parel",
         "position": "Inclusivity Director",
         "year": "3",
         "major": "Political Science + International Relations",
-        "headshot": "headshots/Bethany_Ventura_Parel.jpg"
+        "headshot": "headshots/Bethany_Ventura_Parel.jpg",
+        "seq": "6"
     },
     {
         "id": "Inigo Martinez",
         "position": "Events Logistics Director",
         "year": "3",
         "major": "Psychology",
-        "headshot": "headshots/Inigo_Martinez.jpg"
+        "headshot": "headshots/Inigo_Martinez.jpg",
+        "seq": "7"
     },
     {
         "id": "Aaliyah Cabiles",
         "position": "Student Life Coordinator",
         "year": "1",
         "major": "Business & Computer Science",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "8"
     }
 ]

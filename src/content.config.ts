@@ -50,7 +50,8 @@ const presidential = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -61,7 +62,8 @@ const finance = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -72,7 +74,8 @@ const internals = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -83,7 +86,8 @@ const externals = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -94,7 +98,8 @@ const academic = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -105,7 +110,8 @@ const stulife = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 
@@ -116,7 +122,8 @@ const communications = defineCollection({
         position: z.string(),
         year: z.string(),
         major: z.string(),
-        headshot: z.string()
+        headshot: z.string(),
+        seq: z.string()
     })
 });
 

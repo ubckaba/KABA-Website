@@ -4,83 +4,95 @@
         "position": "VP Creatives",
         "year": "2",
         "major": "Urban Studies",
-        "headshot": "headshots/Becky_Edwards.jpg"
+        "headshot": "headshots/Becky_Edwards.jpg",
+        "seq": "1"
     },
     {
         "id": "Janica Silverio",
         "position": "VP Marketing",
         "year": "3",
         "major": "Psychology",
-        "headshot": "headshots/Janica_Silverio.jpg"
+        "headshot": "headshots/Janica_Silverio.jpg",
+        "seq": "2"
     },
     {
         "id": "Alexi Manning",
         "position": "AVP Communications",
         "year": "3",
         "major": "Cognitive Systems (Computational Intelligence & Design)",
-        "headshot": "headshots/Alexi_Manning.jpg"
+        "headshot": "headshots/Alexi_Manning.jpg",
+        "seq": "3"
     },
     {
         "id": "Argem Matanguihan",
         "position": "Graphics Director",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "4"
     },
     {
         "id": "Vaughn Tan",
         "position": "Graphics Director",
         "year": "3",
         "major": "English Literature",
-        "headshot": "headshots/Vaughn_Tan.jpg"
+        "headshot": "headshots/Vaughn_Tan.jpg",
+        "seq": "5"
     },
     {
         "id": "Francheska Magbanua",
         "position": "Visual Media Director",
         "year": "3",
         "major": "Biology",
-        "headshot": "headshots/Francheska_Magbanua.jpg"
+        "headshot": "headshots/Francheska_Magbanua.jpg",
+        "seq": "6"
     },
     {
         "id": "Charlemagne Chua",
         "position": "Visual Media Director",
         "year": "3",
         "major": "Accounting",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "7"
     },
     {
         "id": "Patricia Bueno",
         "position": "Zine Director",
         "year": "3",
         "major": "Landscape Architecture",
-        "headshot": "headshots/Patricia_Bueno.jpg"
+        "headshot": "headshots/Patricia_Bueno.jpg",
+        "seq": "8"
     },
     {
         "id": "Reiana Co",
         "position": "Zine Director",
         "year": "4",
         "major": "Psychology",
-        "headshot": "headshots/Reiana_Co.jpg"
+        "headshot": "headshots/Reiana_Co.jpg",
+        "seq": "9"
     },
     {
         "id": "Ryota Muramatsu",
         "position": "Marketing Director",
         "year": "3",
         "major": "Interdisciplinary Studies",
-        "headshot": "headshots/Ryota_Muramatsu.jpg"
+        "headshot": "headshots/Ryota_Muramatsu.jpg",
+        "seq": "10"
     },
     {
         "id": "Mikaela Reyes",
         "position": "Creatives Coordinator",
         "year": "2",
         "major": "Psychology + Political Science",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "11"
     },
     {
         "id": "Christophe Manapat",
         "position": "Marketing Coordinator",
         "year": "1",
         "major": "Film Production",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "12"
     }
 ]

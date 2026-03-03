@@ -4,48 +4,55 @@
         "position": "VP External",
         "year": "4",
         "major": "Business Technology Management",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "1"
     },
     {
         "id": "Margaret Concepcion",
         "position": "Partnership Director",
         "year": "2",
         "major": "Food, Nutrition & Health",
-        "headshot": "headshots/Margaret_Concepcion.jpg"
+        "headshot": "headshots/Margaret_Concepcion.jpg",
+        "seq": "2"
     },
     {
         "id": "Maxine Narciso",
         "position": "Philanthropy Director",
         "year": "3",
         "major": "Psychology",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "3"
     },
     {
         "id": "Gerald James Briones",
         "position": "Philanthropy Director",
         "year": "3",
         "major": "Psychology",
-        "headshot": "headshots/Gerald_James_Briones.jpg"
+        "headshot": "headshots/Gerald_James_Briones.jpg",
+        "seq": "4"
     },
     {
         "id": "Maya Juliette Ga",
         "position": "Outreach Director",
         "year": "4",
         "major": "Psychology",
-        "headshot": "headshots/Maya_Juliette_Ga.jpg"
+        "headshot": "headshots/Maya_Juliette_Ga.jpg",
+        "seq": "5"
     },
     {
         "id": "Astrid Sy",
         "position": "External Coordinator",
         "year": "1",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "6"
     },
     {
         "id": "Lenaum Palomo",
         "position": "External Coordinator",
         "year": "1",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "7"
     }
 ]

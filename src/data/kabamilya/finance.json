@@ -4,27 +4,31 @@
         "position": "VP Finance",
         "year": "2",
         "major": "Accounting/Finance",
-        "headshot": "headshots/Anton_Bersamira.jpg"
+        "headshot": "headshots/Anton_Bersamira.jpg",
+        "seq": "1"
     },
     {
         "id": "Andrei Lizo",
         "position": "AVP Finance",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Andrei_Lizo.jpg"
+        "headshot": "headshots/Andrei_Lizo.jpg",
+        "seq": "2"
     },
     {
         "id": "Ivan Belyaev",
         "position": "Fundraising Director",
         "year": "3",
         "major": "Chemical & Biological Engineering",
-        "headshot": "headshots/Ivan_Belyaev.jpg"
+        "headshot": "headshots/Ivan_Belyaev.jpg",
+        "seq": "3"
     },
     {
         "id": "Phina Mary Tran",
         "position": "Finance Coordinator",
         "year": "2",
         "major": "Commerce",
-        "headshot": "headshots/Default.png"
+        "headshot": "headshots/Default.png",
+        "seq": "4"
     }
 ]
