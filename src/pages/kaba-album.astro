@@ -5,7 +5,10 @@ import SectionTitle from '../components/SectionTitle.astro';
 import SectionBody from '../components/SectionBody.astro';
 import { getCollection } from 'astro:content';
 
-const events: any[] = await getCollection('kabaAlbum' as any);
+const kabaAlbum: any[] = await getCollection('kabaAlbum' as any)
+const events = kabaAlbum.sort(
+	(a, b) => b.data.id.valueOf() - a.data.id.valueOf()
+);
 ---
 
 <Layout>
