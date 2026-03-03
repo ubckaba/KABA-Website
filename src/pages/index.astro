@@ -1,21 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import GalleryCard from '../components/GalleryCard.astro';
-import CardContainer from '../components/CardContainer.astro';
 import SectionTitle from '../components/SectionTitle.astro'
 import SectionBody from '../components/SectionBody.astro';
+import PageTitle from '../components/PageTitle.astro';
+import PageBody from '../components/PageBody.astro';
 ---
 
 <Layout>
+	<div class="justify-center items-center grid grid-cols-1
+	mx-40 my-25 gap-4">
+		<PageTitle title="UBC KABABAYAN"/>
+		<PageBody descrip="/kabaˈbajan/ -- FELLOW COMPATRIOT. We are UBC's Filipino student organization! We aim to preserve and promote Filipino culture through various school events, community engagement initiatives, and our social media platforms."/>
+	</div>
+
 	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
 		<!-- Page content goes here -->
 		<div class="grid grid-cols-1
 		gap-4">
-			<SectionTitle />
+			<SectionTitle title="ABOUT US"/>
 			<GalleryCard />
-			<SectionBody />
+			<SectionBody descrip="Founded in 2007, UBC Kababayan, or KABA is a recognized socio-cultural student organization of UBC at its Vancouver campus. KABA acknowledges that it is located on the traditional, ancestral and unceded territory of the Musqueam people - a land that has always been a place of learning. We instill in all of our members the Filipino value of KAPWA /kapˈwa/, the ability to see ourselves in the other, no matter who they are. KABA is affiliated with the Filipino Canadian Students’ Association (FILCASA) and the UBC Association of Southeast Asian Clubs (ASEAC). These collaborations allow us to continuously engage with the UBC community and the larger Filipino-Canadian community, which aids us in our mission of cultivating a deeper appreciation for Filipino culture."/>
 		</div>
-		<CardContainer />
 	</div>
 </Layout>
