@@ -1,0 +1,17 @@
+---
+import '../styles/global.css';
+import CurrentEventCard from './CurrentEventCard.astro';
+import { getCollection } from 'astro:content';
+
+const events: any[] = await getCollection('events' as any);
+---
+
+<div id="card-container"
+class="w-full h-min grid grid-cols-4
+bg-tan border-2 border-black rounded-[20px]
+p-10 gap-x-0 gap-y-4
+items-center justify-center">
+    {events.map(event => (
+        <CurrentEventCard text={event.data.text} link={event.data.link} graphic={event.data.graphic}/>
+    ))}
+</div>
