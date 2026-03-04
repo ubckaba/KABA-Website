@@ -1,14 +1,34 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import GalleryCard from '../components/GalleryCard.astro';
-import CardContainer from '../components/CardContainer.astro';
+import PageBody from '../components/PageBody.astro';
+import PageTitle from '../components/PageTitle.astro';
+import SectionTitle from '../components/SectionTitle.astro';
+import SectionBody from '../components/SectionBody.astro';
+import ZineBook from '../components/ZineBook.astro';
+import { getCollection } from 'astro:content';
+
+const kabazine: any[] = await getCollection('kabazine' as any)
+const zines = kabazine.sort(
+	(a, b) => b.data.id.valueOf() - a.data.id.valueOf()
+);
 ---
 
 <Layout>
 	<div class="justify-center items-center grid grid-cols-1
+	mx-40 my-25 gap-4">
+		<PageTitle title="KABAZINE"/>
+		<PageBody descrip="Our seasonal KABAZINE highlights the photos, artwork, and experiences of our KABABAYAN! Keep an eye out at our events and on our Instagram for opportunities to participate! The zines on this webpage can be flipped like a book, click on each page to flip it!"/>
+	</div>
+
+	<div class="justify-center items-center grid grid-cols-1
 	mx-50 my-25 gap-25">
-		<!-- Page content goes here -->
-		<GalleryCard />
-		<CardContainer />
+		{zines.map(zine => (
+			<div class="grid grid-cols-1
+			gap-4">
+				<SectionTitle title={zine.data.title} />
+				<SectionBody descrip={zine.data.description} />
+				<ZineBook client:load dir={zine.data.dir} count={zine.data.count}/>
+			</div>
+		))}
 	</div>
 </Layout>

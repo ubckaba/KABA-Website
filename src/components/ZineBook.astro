@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+
+const { dir, count } = Astro.props;
+
+const images = Array.from({ length: count }, (_, i) =>
+    `/kabazine/${dir}/${i + 1}.png`
+);
+
+const pages = [];
+for (let i = 0; i < images.length; i += 2) {
+    pages.push({
+        front: images[i],
+        back: images[i + 1] ?? null
+    });
+}
+---
+
+<!-- Book page flip animation -->
+<!-- Adapted from: -->
+<!-- https://stackoverflow.com/a/76978444 -->
+<div id="book-container"
+class="w-full h-min grid grid-cols-1
+bg-tan border-2 border-black rounded-[20px]
+p-10 justify-center-safe items-center-safe">
+    
+  <div class="book">
+    {pages.map(page => (
+      <div class="page">
+        <div class="front">
+          {page.front && (
+            <img src={page.front} class="object-cover h-full w-full" />
+          )}
+        </div>
+
+        <div class="back">
+          {page.back && (
+            <img src={page.back} class="object-cover h-full w-full" />
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+
+</div>
+
+<script>
+    const flipBook = (elBook: Element): void => {
+        const book = elBook as HTMLElement;
+
+        book.style.setProperty("--c", "0"); // CSS variables must be strings
+
+        book.querySelectorAll<HTMLElement>(".page").forEach(
+            (page: HTMLElement, idx: number) => {
+                page.style.setProperty("--i", idx.toString());
+                page.addEventListener("click", (evt: MouseEvent) => {
+                    const target = evt.target as HTMLElement;
+                    const curr = target.closest(".back") ? idx : idx + 1;
+                    book.style.setProperty("--c", curr.toString());
+                });
+            }
+        );
+    };
+
+    document.querySelectorAll(".book").forEach((el) => flipBook(el));
+</script>
