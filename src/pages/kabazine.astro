@@ -27,7 +27,7 @@ const zines = kabazine.sort(
 			gap-4">
 				<SectionTitle title={zine.data.title} />
 				<SectionBody descrip={zine.data.description} />
-				<ZineBook client:load dir={zine.data.dir} count={zine.data.count}/>
+				<ZineBook dir={zine.data.dir} count={zine.data.count}/>
 			</div>
 		))}
 	</div>
