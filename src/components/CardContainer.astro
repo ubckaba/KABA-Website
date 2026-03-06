@@ -11,7 +11,7 @@ const members = m.sort((a, b) => a.data.seq.valueOf() - b.data.seq.valueOf());
 <div id="card-container"
 class="w-full h-min grid grid-cols-4
 bg-tan border-2 border-black rounded-[20px]
-p-10 gap-x-0 gap-y-4">
+px-36 py-10 gap-x-0 gap-y-4">
     {members.map(member => (
         <MemberCard id={member.data.id} position={member.data.position} year={member.data.year} major={member.data.major} headshot={member.data.headshot} />
     ))}

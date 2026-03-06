@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import Image from 'astro:assets';
 
 const id = Astro.props;
 const position = Astro.props;
@@ -14,7 +13,7 @@ class="flex flex-col
 gap-0
 divide-y-2 divide-black">
     <div id="member-top"
-    class="w-full h-13
+    class="w-full h-8
     bg-navy-blue rounded-t-[20px] border-black border-t-2 border-x-2">
 
     </div>
@@ -31,22 +30,22 @@ divide-y-2 divide-black">
     items-center justify-center py-2 px-4 gap-0
     font-acme">
         <a id="member-name"
-        class="text-xl uppercase text-black">
+        class="text-base uppercase text-black">
                 {Astro.props.id}
         </a>
 
         <a id="member-position"
-        class="text-xl text-brown">
+        class="text-base text-brown">
                 {Astro.props.position}
         </a>
 
         <a id="member-year"
-        class="text-lg text-brown">
+        class="text-sm text-brown">
                 Year {Astro.props.year}
         </a>
 
         <a id="member-major"
-        class="text-lg text-brown">
+        class="text-sm text-brown">
                 {Astro.props.major}
         </a>
     </div>

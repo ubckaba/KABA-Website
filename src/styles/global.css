@@ -40,7 +40,7 @@
 .book {
   display: flex;
   margin: auto;
-  width: 50%;
+  width: 30%;
   /*1* let pointer event go trough pages of lower Z than .book */
   pointer-events: none;
   transform-style: preserve-3d;
