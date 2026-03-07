@@ -11,19 +11,16 @@ const episodes: any[] = await getCollection('kabatalks' as any);
 ---
 
 <Layout>
-	<div class="justify-center items-center grid grid-cols-1
-	mx-50 my-25 gap-4">
+	<div class="xl:px-50 sm:px-4 px-0 lg:pt-24 pt-16 lg:pb-12 pb-8 space-y-2 lg:space-y-4">
 		<PageTitle title="KABATALKS"/>
 		<PageBody descrip="HELLO!!! We are Damarise and Malaya and we are so excited to be your podcast hosts this year for Kaba Talks, a podcast dedicated to Filipino themes and how they intertwine with our daily lives. Thank you for taking the time to listen to our discussions and silly antics, hope you all enjoy!"/>
 	</div>
 
-	<div class="justify-center items-center grid grid-cols-1
-	mx-60 my-25 gap-25">
+	<div class="xl:px-60 sm:px-8 px-2 lg:py-12 pb-8 lg:space-y-24 space-y-8">
 		<!-- Page content goes here -->
 
 		{episodes.map(episode => (
-			<div class="grid grid-cols-1
-			gap-4">
+			<div class="lg:space-y-4 space-y-2">
 				<SectionTitle title={episode.data.title}/>
 				<GalleryCard text="WATCH THE PODCAST ON YOUTUBE!" cover={episode.data.cover} image1={episode.data.image1} image2={episode.data.image2} link={episode.data.link}/>
 				<SectionBody descrip={episode.data.description}/>

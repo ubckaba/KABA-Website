@@ -11,9 +11,9 @@ import spotify from '../assets/spotify.svg';
 <div id="footer"
 class="flex flex-col lg:flex-row bottom-0 z-50 w-full h-min
 items-center justify-center-safe py-8 gap-y-4
-bg-tan border-t-2 border-black">
+bg-tan border-t-1 md:border-t-2 border-black">
     <div id="socials"
-    class="flex-row flex gap-10 mx-10">
+    class="flex-row flex gap-10 px-4 lg:px-10">
         <a id="instagram-link" href="https://www.instagram.com/ubckaba/" target="_blank">
             <img id="instagram" src={instagram.src} alt="INSTAGRAM LOGO"
             class="w-7 h-7
@@ -45,15 +45,15 @@ bg-tan border-t-2 border-black">
     <form id="newsletter-form" method="POST" action="/api/subscribe" target="hidden_iframe"
     class="flex h-min
     gap-0
-    divide-x-2 divide-black">
+    md:divide-x-2 divide-x-1 divide-black">
         <input id="newsletter-input" name="newsletter-input" type="email" placeholder="Enter your email here."
-        class="placeholder-gray font-acme text-base no
-        bg-white border-y-2 border-l-2 border-black rounded-l-[20px]
+        class="placeholder-gray font-acme lg:text-lg text-base no
+        bg-white border-y-1 md:border-y-2 border-l-1 md:border-l-2 border-black rounded-l-[20px]
         py-1 px-8 lg:px-16">
         <button id="subscribe-button"
-        class="bg-red rounded-r-[20px] border-y-2 border-r-2 border-black
+        class="bg-red rounded-r-[20px] md:border-y-2 border-y-1 md:border-r-2 border-r-1 border-black
         px-3 py-1
-        text-black font-acme text-base
+        text-black font-acme lg:text-lg text-base uppercase
         hover:bg-light-red transition-all duration-200">
             <span class="lg:hidden">SUBSCRIBE!</span>
             <span class="hidden lg:inline">SUBSCRIBE TO OUR NEWSLETTER!</span>

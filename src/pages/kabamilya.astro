@@ -17,60 +17,51 @@ const communications = await getEntry('kabamilya' as any, 'Communications');
 ---
 
 <Layout>
-	<div class="justify-center items-center grid grid-cols-1
-	mx-50 my-25 gap-4">
+	<div class="xl:px-50 sm:px-4 px-0 lg:pt-24 pt-16 lg:pb-12 pb-8 space-y-2 lg:space-y-4">
 		<PageTitle title="Kabamilya"/>
 		<PageBody descrip="At UBC KABABAYAN, we are all one big PAMILYA /paˈmilja/, meaning FAMILY! Meet our KABAMILYA -- the executive members that make everything happen!"/>
 	</div>
 
-	<div class="justify-center items-center grid grid-cols-1
-	mx-60 my-25 gap-25">
+	<div class="xl:px-60 sm:px-8 px-2 lg:py-12 pb-8 lg:space-y-24 space-y-8">
 		<!-- Page content goes here -->
 		<div id="presidential"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={presidential.data.id}/>
 			<SectionBody descrip={presidential.data.description}/>
 			<CardContainer dept='presidential'/>
 		</div>
 		<div id="finance"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={finance.data.id}/>
 			<SectionBody descrip={finance.data.description}/>
 			<CardContainer dept='finance'/>
 		</div>
 		<div id="internals"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={internals.data.id}/>
 			<SectionBody descrip={internals.data.description}/>
 			<CardContainer dept='internals'/>
 		</div>
 		<div id="externals"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={externals.data.id}/>
 			<SectionBody descrip={externals.data.description}/>
 			<CardContainer dept='externals'/>
 		</div>
 		<div id="academic"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={academic.data.id}/>
 			<SectionBody descrip={academic.data.description}/>
 			<CardContainer dept='academic'/>
 		</div>
 		<div id="stulife"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={stulife.data.id}/>
 			<SectionBody descrip={stulife.data.description}/>
 			<CardContainer dept='stulife'/>
 		</div>
 		<div id="communications"
-		class="grid grid-cols-1
-		gap-4">
+		class="lg:space-y-4 space-y-2">
 			<SectionTitle title={communications.data.id}/>
 			<SectionBody descrip={communications.data.description}/>
 			<CardContainer dept='communications'/>

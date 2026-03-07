@@ -14,17 +14,14 @@ const zines = kabazine.sort(
 ---
 
 <Layout>
-	<div class="justify-center items-center grid grid-cols-1
-	mx-50 my-25 gap-4">
+	<div class="xl:px-50 sm:px-4 px-0 lg:pt-24 pt-16 lg:pb-12 pb-8 space-y-2 lg:space-y-4">
 		<PageTitle title="KABAZINE"/>
 		<PageBody descrip="Our seasonal KABAZINE highlights the photos, artwork, and experiences of our KABABAYAN! Keep an eye out at our events and on our Instagram for opportunities to participate! The zines on this webpage can be flipped like a book, click on each page to flip it!"/>
 	</div>
 
-	<div class="justify-center items-center grid grid-cols-1
-	mx-60 my-25 gap-25">
+	<div class="xl:px-60 sm:px-8 px-2 lg:py-12 pb-8 lg:space-y-24 space-y-8">
 		{zines.map(zine => (
-			<div class="grid grid-cols-1
-			gap-4">
+			<div class="lg:space-y-4 space-y-2">
 				<SectionTitle title={zine.data.title} />
 				<SectionBody descrip={zine.data.description} />
 				<ZineBook dir={zine.data.dir} count={zine.data.count}/>

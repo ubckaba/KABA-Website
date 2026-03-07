@@ -10,28 +10,25 @@ const graphic = Astro.props;
 <div id="event-card"
 class="flex flex-col
 gap-0
-divide-y-2 divide-black">
+divide-y-1 md:divide-y-2 divide-black">
     <div id="event-top"
-    class="w-full h-8
-    bg-navy-blue rounded-t-[20px] border-black border-t-2 border-x-2">
+    class="w-full h-4 lg:h-8
+    bg-navy-blue rounded-t-[20px] border-black border-t-1 md:border-t-2 border-x-1 md:border-x-2">
 
     </div>
 
-    <div class="border-x-2 border-black
+    <div class="border-x-1 md:border-x-2 border-black
     w-full h-min aspect-6/7 overflow-hidden">
         <img src={Astro.props.graphic}
         class="w-full h-min object-cover"/>
     </div>
 
     <div id="event-bottom"
-    class="bg-red rounded-b-[20px] border-black border-b-2 border-x-2
-    w-full grid grid-cols-1
-    items-center justify-center p-4 gap-0
-    font-acme
+    class="bg-red rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
+    w-full py-2 lg:py-4 px-2 lg:px-4 gap-0 text-center
     hover:bg-light-red transition-all duration-200">
         <a id="event-button" href={link} target="_blank"
-        class="text-base uppercase text-black
-        text-center">
+        class="font-acme lg:text-lg sm:text-base text-xs uppercase text-black">
                 {text}
         </a>
     </div>

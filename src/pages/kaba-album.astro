@@ -14,19 +14,16 @@ const events = kabaAlbum.sort(
 ---
 
 <Layout>
-	<div class="justify-center items-center grid grid-cols-1
-	mx-50 my-25 gap-4">
+	<div class="xl:px-50 sm:px-4 px-0 lg:pt-24 pt-16 lg:pb-12 pb-8 space-y-2 lg:space-y-4">
 		<PageTitle title="KABA ALBUM"/>
 		<PageBody descrip="Browse photos from our previous events -- who knows, you might appear in a picture or two! All photo albums are located on Google Drive."/>
 	</div>
 
-	<div class="justify-center items-center grid grid-cols-1
-	mx-60 my-25 gap-25">
+	<div class="xl:px-60 sm:px-8 px-2 lg:py-12 pb-8 lg:space-y-24 space-y-8">
 		<!-- Page content goes here -->
 
 		{events.map(event => (
-			<div class="grid grid-cols-1
-			gap-4">
+			<div class="lg:space-y-4 space-y-2">
 				<SectionTitle title={event.data.title}/>
 				<SectionBody descrip={event.data.description}/>
 				<GalleryCard text="OPEN THE PHOTO ALBUM!" cover={event.data.cover} image1={event.data.image1} image2={event.data.image2} link={event.data.link}/>

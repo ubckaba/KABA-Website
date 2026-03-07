@@ -8,9 +8,8 @@ const events: any[] = await getCollection('events' as any);
 
 <div id="card-container"
 class="w-full h-min grid grid-cols-4
-bg-tan border-2 border-black rounded-[20px]
-px-36 py-10 gap-x-0 gap-y-4
-items-center justify-center">
+bg-tan border-1 md:border-2 border-black rounded-[20px]
+lg:px-36 px-2 lg:py-10 py-1 gap-x-0 lg:gap-y-4 gap-y-2">
     {events.map(event => (
         <CurrentEventCard text={event.data.text} link={event.data.link} graphic={event.data.graphic}/>
     ))}
