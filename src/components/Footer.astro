@@ -9,34 +9,37 @@ import spotify from '../assets/spotify.svg';
 ---
 
 <div id="footer"
-class="flex bottom-0 z-50 w-full h-min
-items-center justify-center-safe gap-10 py-4
+class="flex flex-col lg:flex-row bottom-0 z-50 w-full h-min
+items-center justify-center-safe py-8 gap-y-4
 bg-tan border-t-2 border-black">
-    <a id="instagram-link" href="https://www.instagram.com/ubckaba/" target="_blank">
-        <img id="instagram" src={instagram.src} alt="INSTAGRAM LOGO"
-        class="w-7 h-7
-        hover:brightness-200"/>
-    </a>
-    <a id="facebook-link" href="https://www.facebook.com/UBCKababayan" target="_blank">
-        <img id="facebook" src={facebook.src} alt="FACEBOOK LOGO"
-        class="w-7 h-7
-        hover:brightness-200"/>
-    </a>
-    <a id="youtube-link" href="https://www.youtube.com/user/kababayanubc" target="_blank">
-        <img id="youtube" src={youtube.src} alt="YOUTUBE LOGO"
-        class="w-7 h-7
-        hover:brightness-200"/>
-    </a>
-    <a id="spotify-link" href="https://open.spotify.com/user/eiztp1sajgx5ozlpfpztjm25i" target="_blank">
-        <img id="spotify" src={spotify.src} alt="SPOTIFY LOGO"
-        class="w-7 h-7
-        hover:brightness-200"/>
-    </a>
-    <a id="linkedin-link" href="https://www.linkedin.com/company/ubc-kababayan-filipino-student-s-association/" target="_blank">
-        <img id="linkedin" src={linkedin.src} alt="LINKEDIN LOGO"
-        class="w-7 h-7
-        hover:brightness-200"/>
-    </a>
+    <div id="socials"
+    class="flex-row flex gap-10 mx-10">
+        <a id="instagram-link" href="https://www.instagram.com/ubckaba/" target="_blank">
+            <img id="instagram" src={instagram.src} alt="INSTAGRAM LOGO"
+            class="w-7 h-7
+            hover:brightness-200"/>
+        </a>
+        <a id="facebook-link" href="https://www.facebook.com/UBCKababayan" target="_blank">
+            <img id="facebook" src={facebook.src} alt="FACEBOOK LOGO"
+            class="w-7 h-7
+            hover:brightness-200"/>
+        </a>
+        <a id="youtube-link" href="https://www.youtube.com/user/kababayanubc" target="_blank">
+            <img id="youtube" src={youtube.src} alt="YOUTUBE LOGO"
+            class="w-7 h-7
+            hover:brightness-200"/>
+        </a>
+        <a id="spotify-link" href="https://open.spotify.com/user/eiztp1sajgx5ozlpfpztjm25i" target="_blank">
+            <img id="spotify" src={spotify.src} alt="SPOTIFY LOGO"
+            class="w-7 h-7
+            hover:brightness-200"/>
+        </a>
+        <a id="linkedin-link" href="https://www.linkedin.com/company/ubc-kababayan-filipino-student-s-association/" target="_blank">
+            <img id="linkedin" src={linkedin.src} alt="LINKEDIN LOGO"
+            class="w-7 h-7
+            hover:brightness-200"/>
+        </a>
+    </div>
     
     <iframe name="hidden_iframe" class="hidden"></iframe>
     <form id="newsletter-form" method="POST" action="/api/subscribe" target="hidden_iframe"
@@ -46,13 +49,14 @@ bg-tan border-t-2 border-black">
         <input id="newsletter-input" name="newsletter-input" type="email" placeholder="Enter your email here."
         class="placeholder-gray font-acme text-base no
         bg-white border-y-2 border-l-2 border-black rounded-l-[20px]
-        py-1 px-15">
+        py-1 px-8 lg:px-16">
         <button id="subscribe-button"
         class="bg-red rounded-r-[20px] border-y-2 border-r-2 border-black
         px-3 py-1
         text-black font-acme text-base
         hover:bg-light-red transition-all duration-200">
-            SUBSCRIBE TO OUR NEWSLETTER!
+            <span class="lg:hidden">SUBSCRIBE!</span>
+            <span class="hidden lg:inline">SUBSCRIBE TO OUR NEWSLETTER!</span>
         </button>
     </form>
 </div>
