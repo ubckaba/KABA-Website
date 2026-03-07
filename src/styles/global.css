@@ -46,6 +46,11 @@
   transform-style: preserve-3d;
   transition: translate 1s;
   translate: calc(min(var(--c), 1) * 50%) 0%;
+  visibility: hidden;
+}
+
+.book.ready {
+  visibility: visible;
 }
 
 .page {
@@ -60,12 +65,15 @@
   transform-style: preserve-3d;
   border: 1px solid #000;
   transform-origin: left center;
-  transition:
-    transform 1s,
-    rotate 1s ease-in calc((min(var(--i), var(--c)) - max(var(--i), var(--c))) * 50ms);
   translate: calc(var(--i) * -100%) 0px 0px;
   transform: translateZ( calc((var(--c) - var(--i) - 0.5) * calc(var(--thickness) * 1px)));
   rotate: 0 1 0 calc(clamp(0, var(--c) - var(--i), 1) * -180deg);
+}
+
+.book.ready .page {
+  transition:
+    transform 1s,
+    rotate 1s ease-in calc((min(var(--i), var(--c)) - max(var(--i), var(--c))) * 50ms);
 }
 
 @media (width >= 48rem) {

@@ -45,22 +45,26 @@ lg:p-10 py-1 justify-center-safe items-center-safe">
 </div>
 
 <script>
-    const flipBook = (elBook: Element): void => {
-        const book = elBook as HTMLElement;
+  const flipBook = (elBook: Element) => {
+    const book = elBook as HTMLElement;
 
-        book.style.setProperty("--c", "0"); // CSS variables must be strings
+    book.style.setProperty("--c", "0");
 
-        book.querySelectorAll<HTMLElement>(".page").forEach(
-            (page: HTMLElement, idx: number) => {
-                page.style.setProperty("--i", idx.toString());
-                page.addEventListener("click", (evt: MouseEvent) => {
-                    const target = evt.target as HTMLElement;
-                    const curr = target.closest(".back") ? idx : idx + 1;
-                    book.style.setProperty("--c", curr.toString());
-                });
-            }
-        );
-    };
+    book.querySelectorAll<HTMLElement>(".page").forEach((page: HTMLElement, idx: number) => {
+      page.style.setProperty("--i", idx.toString());
 
-    document.querySelectorAll(".book").forEach((el) => flipBook(el));
+      page.addEventListener("click", (evt: MouseEvent) => {
+        const target = evt.target as HTMLElement;
+        const curr = target.closest(".back") ? idx : idx + 1;
+        book.style.setProperty("--c", curr.toString());
+      });
+    });
+
+    // Enable transitions AFTER layout is correct
+    requestAnimationFrame(() => {
+      book.classList.add("ready");
+    });
+  };
+
+  document.querySelectorAll(".book").forEach((el) => flipBook(el));
 </script>
