@@ -16,6 +16,7 @@ const kabamilya = currentPath === "/kabamilya" ? focusStyle : defaultStyle;
 const kabaAlbum = currentPath === "/kaba-album" ? focusStyle : defaultStyle;
 const kabazine = currentPath === "/kabazine" ? focusStyle : defaultStyle;
 const kabatalks = currentPath === "/kabatalks" ? focusStyle : defaultStyle;
+const mobileNav = currentPath === "/mobile-nav" ? focusStyle : defaultStyle;
 ---
 
 <div id="nav-bar"
@@ -28,11 +29,21 @@ bg-tan border-b-2 border-black">
         <img id="logo" src={logo.src}
         class="h-8">
     </div>
+
     <div id="nav-spacer">
         <!-- Empty middle div for spacing -->
     </div>
+
+    <div id="mobile-button"
+    class="flex justify-self-end text-center gap-0 xl:hidden">
+        <a id="mobile-hamburger" href="/mobile-nav"
+        class={mobileNav}>
+            ☰
+        </a>
+    </div>
+    
     <div id="nav-buttons"
-    class="flex justify-self-end text-center gap-0">
+    class="xl:flex justify-self-end text-center gap-0 hidden">
         <a id="home-button" href="/"
         class={home}>
             HOME
