@@ -2,7 +2,7 @@
 import "../styles/global.css";
 import Navigation from "../components/Navigation.astro";
 import Footer from '../components/Footer.astro';
-import texture from '../assets/texture.png';
+import texture from '../assets/texture.webp';
 
 const currPath = Astro.url.pathname;
 ---
@@ -14,6 +14,7 @@ const currPath = Astro.url.pathname;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
+		<link rel="preload" as="image" href={texture.src} />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="UBC's Filipino Student Association" />
 		<title>UBC KABABAYAN</title>
