@@ -9,9 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "^9.0.4",
+    "@astrojs/vercel": "^8.0.4",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@tailwindcss/vite": "^4.1.18",
+    "@vercel/analytics": "^2.0.0",
     "astro": "^5.17.1",
     "react": "^19.2.4",
     "tailwindcss": "^4.1.18"
