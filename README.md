@@ -1,3 +1,18 @@
+# Laundry List
+
+### Finish by end of April 2026
+- [ ] Automatic Current Event push with Google Form integration
+- [ ] Optimize image loading
+- [ ] Optimize fast image transfer
+
+### Future Improvements
+- [ ] Revamp landing page
+- [ ] Automatic old Current Event delete (still thinking about how to do that...)
+- [ ] Automatic KABA ALBUM event push with Google Form integration
+- [ ] Automatic KABAZINE issue push with Google Form integration
+- [ ] Automatic KABATALKS episode push with Google Form integration
+
+
 # Astro Starter Kit: Basics
 
 ```sh
