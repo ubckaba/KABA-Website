@@ -4,6 +4,7 @@
 - [ ] Automatic Current Event push with Google Form integration
 - [ ] Optimize image loading
 - [ ] Optimize fast image transfer
+- [ ] Add documentation to GitHub repo and internal documents
 
 ### Future Improvements
 - [ ] Revamp landing page
