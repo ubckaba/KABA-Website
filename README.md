@@ -5,6 +5,7 @@
 - [ ] Optimize image loading
 - [ ] Optimize fast image transfer
 - [ ] Add documentation to GitHub repo and internal documents
+- [ ] Fix nav bar focus style bug
 
 ### Future Improvements
 - [ ] Revamp landing page
