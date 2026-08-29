@@ -1,18 +1,18 @@
 # Laundry List
 
-### Finish by end of April 2026
-- [ ] Automatic Current Event push with Google Form integration
-- [ ] Optimize image loading
-- [ ] Optimize fast image transfer
-- [ ] Add documentation to GitHub repo and internal documents
-- [ ] Fix nav bar focus style bug
+### Due August 31
+- [ ] Replace First-round hiring with Second-round hiring on Current Events **(Carlo)**
 
-### Future Improvements
-- [ ] Revamp landing page
-- [ ] Automatic old Current Event delete (still thinking about how to do that...)
-- [ ] Automatic KABA ALBUM event push with Google Form integration
-- [ ] Automatic KABAZINE issue push with Google Form integration
-- [ ] Automatic KABATALKS episode push with Google Form integration
+### Due September 17
+- [ ] Automatic Current Event push with Google Form integration **(Carlo)**
+- [ ] Remove KABAZINE **(Carlo)**
+
+### Chores (Before end of Term 1)
+- [ ] Optimize image loading **(Carlo)**
+- [ ] Optimize fast image transfer **(Carlo)**
+- [ ] Add documentation to GitHub repo and internal documents **(Alexi)**
+- [ ] Fix nav bar focus style bug **(Carlo)**
+- [ ] Revamp landing page **(Alexi)**
 
 
 # Astro Starter Kit: Basics
