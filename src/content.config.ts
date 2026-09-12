@@ -18,17 +18,6 @@ const events = defineCollection({
     })
 });
 
-const kabazine = defineCollection({
-    loader: glob({ pattern: ['*.json', '!template.json'], base: "./src/data/kabazine" }),
-    schema: z.object({
-        id: z.string(),
-        title: z.string(),
-        dir: z.string(),
-        count: z.number(),
-        description: z.string()
-    })
-});
-
 const kabaAlbum = defineCollection({
     loader: glob({ pattern: ['*.json', '!template.json'], base: "./src/data/kaba-album" }),
     schema: z.object({
@@ -148,4 +137,4 @@ const communications = defineCollection({
 });
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { events,kabazine, kabaAlbum, kabatalks, kabamilya, presidential, finance, internals, externals, academic, stulife, communications };
+export const collections = { events, kabaAlbum, kabatalks, kabamilya, presidential, finance, internals, externals, academic, stulife, communications };

@@ -2,7 +2,6 @@
 
 ### Due September 17
 - [ ] Automatic Current Event push with Google Form integration **(Carlo)**
-- [ ] Remove KABAZINE **(Carlo)**
 
 ### Chores (Before end of Term 1)
 - [ ] Optimize image loading **(Carlo)**

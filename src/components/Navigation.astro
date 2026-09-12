@@ -14,7 +14,6 @@ const focusStyle = "bg-light-red border-x-1 md:border-x-2 border-x-1 md:border-t
 const home = currentPath === "/" ? focusStyle : defaultStyle;
 const kabamilya = currentPath === "/kabamilya" ? focusStyle : defaultStyle;
 const kabaAlbum = currentPath === "/kaba-album" ? focusStyle : defaultStyle;
-const kabazine = currentPath === "/kabazine" ? focusStyle : defaultStyle;
 const kabatalks = currentPath === "/kabatalks" ? focusStyle : defaultStyle;
 ---
 
@@ -60,10 +59,6 @@ bg-tan border-b-1 md:border-b-2 border-black">
         px-12 py-4 border-b-1 md:border-b-2 border-black">
             KABA ALBUM
         </a>
-        <a href="/kabazine" class="font-acme text-base text-black
-        px-12 py-4 border-b-1 md:border-b-2 border-black">
-            KABAZINE
-        </a>
         <a href="/kabatalks" class="font-acme text-base text-black
         px-12 py-4">
             KABATALKS
@@ -83,10 +78,6 @@ bg-tan border-b-1 md:border-b-2 border-black">
         <a id="kaba-album-button" href="/kaba-album"
         class={kabaAlbum}>
             KABA ALBUM
-        </a>
-        <a id="kabazine-button" href="/kabazine"
-        class={kabazine}>
-            KABAZINE
         </a>
         <a id="kabatalks-button" href="/kabatalks"
         class={kabatalks}>
