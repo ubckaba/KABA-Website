@@ -1,8 +1,5 @@
 # Laundry List
 
-### Due August 31
-- [ ] Replace First-round hiring with Second-round hiring on Current Events **(Carlo)**
-
 ### Due September 17
 - [ ] Automatic Current Event push with Google Form integration **(Carlo)**
 - [ ] Remove KABAZINE **(Carlo)**
