@@ -1,0 +1,58 @@
+[
+    {
+        "id": "Andrei Soller",
+        "position": "VP External",
+        "year": "4",
+        "major": "Business Technology Management",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "1"
+    },
+    {
+        "id": "Margaret Concepcion",
+        "position": "Partnership Director",
+        "year": "2",
+        "major": "Food, Nutrition & Health",
+        "headshot": "headshots/25-26/Margaret_Concepcion.jpg",
+        "seq": "2"
+    },
+    {
+        "id": "Maxine Narciso",
+        "position": "Philanthropy Director",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "3"
+    },
+    {
+        "id": "Gerald James Briones",
+        "position": "Philanthropy Director",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/25-26/Gerald_James_Briones.jpg",
+        "seq": "4"
+    },
+    {
+        "id": "Maya Juliette Ga",
+        "position": "Outreach Director",
+        "year": "4",
+        "major": "Psychology",
+        "headshot": "headshots/25-26/Maya_Juliette_Ga.jpg",
+        "seq": "5"
+    },
+    {
+        "id": "Astrid Sy",
+        "position": "External Coordinator",
+        "year": "1",
+        "major": "Commerce",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "6"
+    },
+    {
+        "id": "Lenaum Palomo",
+        "position": "External Coordinator",
+        "year": "1",
+        "major": "Commerce",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "7"
+    }
+]

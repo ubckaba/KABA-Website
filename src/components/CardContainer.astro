@@ -3,8 +3,8 @@ import '../styles/global.css';
 import MemberCard from './MemberCard.astro';
 import { getCollection } from 'astro:content';
 
-const { dept } = Astro.props;
-const m: any[] = await getCollection(dept as any);
+const { dept, suffix = '' } = Astro.props;
+const m: any[] = await getCollection((dept + suffix) as any);
 const members = m.sort((a, b) => a.data.seq.valueOf() - b.data.seq.valueOf());
 
 const backgrounds: Record<string, string> = {

@@ -1,0 +1,58 @@
+[
+    {
+        "id": "Jasmine Baluyut",
+        "position": "VP Student Life",
+        "year": "3",
+        "major": "Political Science",
+        "headshot": "headshots/25-26/Jasmine_Baluyut.jpg",
+        "seq": "1"
+    },
+    {
+        "id": "Ilyas Ishenaliev",
+        "position": "AVP Student Life",
+        "year": "2",
+        "major": "Commerce",
+        "headshot": "headshots/25-26/Ilyas_Ishenaliev.jpg",
+        "seq": "2"
+    },
+    {
+        "id": "Liam Nicolas",
+        "position": "Social Director",
+        "year": "2",
+        "major": "Arts",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "3"
+    },
+    {
+        "id": "Princess dela Cruz",
+        "position": "Social Director",
+        "year": "2",
+        "major": "Civil Engineering",
+        "headshot": "headshots/25-26/Princess_dela_Cruz.jpg",
+        "seq": "4"
+    },
+    {
+        "id": "Zaiden Grayda-Reyes",
+        "position": "Inclusivity Director",
+        "year": "2",
+        "major": "Flute",
+        "headshot": "headshots/25-26/Zaiden_Grayda-Reyes.jpg",
+        "seq": "5"
+    },
+    {
+        "id": "Bethany Ventura Parel",
+        "position": "Inclusivity Director",
+        "year": "3",
+        "major": "Political Science + International Relations",
+        "headshot": "headshots/25-26/Bethany_Ventura_Parel.jpg",
+        "seq": "6"
+    },
+    {
+        "id": "Aaliyah Cabiles",
+        "position": "Student Life Coordinator",
+        "year": "1",
+        "major": "Business & Computer Science",
+        "headshot": "headshots/25-26/Default.png",
+        "seq": "8"
+    }
+]

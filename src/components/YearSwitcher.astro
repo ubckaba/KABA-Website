@@ -1,0 +1,27 @@
+---
+const { current } = Astro.props;
+
+const years = [
+  { label: '26/27', href: '/kabamilya' },
+  { label: '25/26', href: '/kabamilya-2526' },
+];
+---
+
+<div class="px-8">
+    <label class="font-acme text-brown flex items-center gap-2">
+      Team:
+      <select id="year-switcher"
+        class="bg-tan border-1 md:border-2 border-black rounded-lg px-2 py-1 font-acme text-brown">
+        {years.map(y => (
+          <option value={y.href} selected={y.href === current}>{y.label}</option>
+        ))}
+      </select>
+    </label>
+  </div>
+
+<script>
+  const select = document.getElementById('year-switcher') as HTMLSelectElement | null;
+  select?.addEventListener('change', () => {
+    window.location.href = select.value;
+  });
+</script>
