@@ -146,21 +146,28 @@ const memberSchema = z.object({
     seq: z.string()
   });
   
-  const pastTeam = (dept: string) => defineCollection({
+const pastTeam = (dept: string) => defineCollection({
     loader: file(`src/data/kabamilya/2526/${dept}.json`),
     schema: memberSchema
   });
 
+const kabamilya2526 = defineCollection({
+    loader: file('src/data/kabamilya-2526.json'),
+    schema: z.object({
+      id: z.string(),
+      description: z.string()
+    })
+  });
 
 // 5. Export a single `collections` object to register your collection(s)
 export const collections = {
-    events, kabaAlbum, kabatalks, kabamilya,
+    events, kabaAlbum, kabatalks, kabamilya, 'kabamilya-2526': kabamilya2526,
     presidential, finance, internals, externals, academic, stulife, communications,
-    presidential2526: pastTeam('presidential'),
-    finance2526: pastTeam('finance'),
-    internals2526: pastTeam('internals'),
-    externals2526: pastTeam('externals'),
-    academic2526: pastTeam('academic'),
-    stulife2526: pastTeam('stulife'),
-    communications2526: pastTeam('communications'),
+    'presidential-2526': pastTeam('presidential'),
+    'finance-2526': pastTeam('finance'),
+    'internals-2526': pastTeam('internals'),
+    'externals-2526': pastTeam('externals'),
+    'academic-2526': pastTeam('academic'),
+    'stulife-2526': pastTeam('stulife'),
+    'communications-2526': pastTeam('communications'),
   };

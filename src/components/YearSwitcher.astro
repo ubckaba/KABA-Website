@@ -1,27 +1,40 @@
 ---
-const { current } = Astro.props;
-
 const years = [
-  { label: '26/27', href: '/kabamilya' },
-  { label: '25/26', href: '/kabamilya-2526' },
+  { label: '26/27', value: '2627' },
+  { label: '25/26', value: '2526' },
 ];
 ---
 
 <div class="px-8">
-    <label class="font-acme text-brown flex items-center gap-2">
-      Team:
-      <select id="year-switcher"
-        class="bg-tan border-1 md:border-2 border-black rounded-lg px-2 py-1 font-acme text-brown">
-        {years.map(y => (
-          <option value={y.href} selected={y.href === current}>{y.label}</option>
-        ))}
-      </select>
-    </label>
-  </div>
+  <label class="font-acme text-brown flex items-center gap-2">
+    Team:
+    <select id="year-switcher"
+      class="bg-tan border-1 md:border-2 border-black rounded-lg px-2 py-1 font-acme text-brown">
+      {years.map(y => (
+        <option value={y.value}>{y.label}</option>
+      ))}
+    </select>
+  </label>
+</div>
 
 <script>
   const select = document.getElementById('year-switcher') as HTMLSelectElement | null;
+
+  function show(year: string) {
+    document.querySelectorAll('[data-team]').forEach((el) => {
+      el.classList.toggle('hidden', el.id !== `team-${year}`);
+    });
+  }
+
+  const initial = new URLSearchParams(window.location.search).get('year');
+  if (select && initial && Array.from(select.options).some((o) => o.value === initial)) {
+    select.value = initial;
+    show(initial);
+  }
+
   select?.addEventListener('change', () => {
-    window.location.href = select.value;
+    show(select.value);
+    const url = select.value === '2627' ? window.location.pathname : `?year=${select.value}`;
+    history.replaceState(null, '', url);
   });
 </script>

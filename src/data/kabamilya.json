@@ -1,30 +1,30 @@
 [
     {
         "id": "Presidential",
-        "description": "The Presidential department overlooks the general flow of KABA as a club. They spearhead planning the monthly Kaba Konnect events that bring general and executive members together, as well as the annual end-of-year gala, Barrio Fiesta."
+        "description": "Order in the court! The Presidential department is the executive branch of KABA, overseeing the general flow of the club. They lead the planning of the monthly Kaba Konnect events that bring general and executive members together, as well as our annual end-of-year gala, Barrio Fiesta."
     },
     {
         "id": "Finance",
-        "description": "The Finance department is responsible for the financial management, oversight, and reporting of all club funds. They host fundraisers that are later allocated across KABA initiatives."
+        "description": "The Finance department is all business. They manage, oversee, and report on all club funds, making sure every dollar is accounted for. They also host fundraisers, with the proceeds allocated across KABA initiatives."
     },
     {
         "id": "Internals",
-        "description": "The Internals department handles executive relations and club memberships. The department plans our annual executive retreat, executive socials and community engagement."
+        "description": "The Internals department keeps KABA cozy. They handle executive relations and club memberships, and plan our annual executive retreat, executive socials, and community engagement, so everyone feels right at home."
     },
     {
         "id": "Externals",
-        "description": "The Externals department holds philanthropic events for non-profit organisations in the Philippines, as well as developing and maintaining sponsorships throughout the year. Additionally, the Externals department represents the club in the Association of Southeast Asian Clubs in UBC, and maintains ties with club alumni."
+        "description": "The Externals department takes KABA beyond the trailhead. They hold philanthropic events for non-profit organisations in the Philippines and develop and maintain sponsorships throughout the year. They also represent the club in the Association of Southeast Asian Clubs in UBC and keep in touch with club alumni."
     },
     {
         "id": "Academic",
-        "description": "The Academic department develops programs that enhance members’ professional, academic, and wellness development. They uphold the club’s correspondence with industry professionals and initiating projects that showcase Filipino culture and identity."
+        "description": "Class is in session! The Academic department develops programs that enhance members’ professional, academic, and wellness development. They maintain the club’s correspondence with industry professionals and start projects that showcase Filipino culture and identity."
     },
     {
         "id": "Student Life",
-        "description": "The Student Life department manages the major KABA social events, including the KABArkada program, Icebreaker events, Halloween, and our annual FSA event, KABAlympics."
+        "description": "The Student Life department brings the swag to every KABA social. They manage our major events, including the KABArkada program, Icebreaker events, Halloween, and our annual FSA event, KABAlympics."
     },
     {
         "id": "Communications",
-        "description": "The Communications department showcases the vibrant Filipino culture through the KABA website, KABAzine, and all other forms of media. With the department in two branches—Creatives and Marketing—they efficiently take charge of all forms of promotions and publicity for the club’s initiatives."
+        "description": "The Communications department is always cooking. They serve up the vibrant Filipino culture through the KABA website and all other forms of media. Split into two branches, Creatives and Marketing, they take charge of promotions and publicity for all of the club’s initiatives."
     }
 ]

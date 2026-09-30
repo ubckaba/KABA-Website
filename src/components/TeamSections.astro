@@ -1,0 +1,34 @@
+---
+import CardContainer from './CardContainer.astro';
+import SectionBody from './SectionBody.astro';
+import SectionTitle from './SectionTitle.astro';
+import { getEntry } from 'astro:content';
+
+const { suffix = '' } = Astro.props;
+const descCollection = `kabamilya${suffix}`;
+
+const depts = [
+  { key: 'presidential',   entry: 'Presidential' },
+  { key: 'finance',        entry: 'Finance' },
+  { key: 'internals',      entry: 'Internals' },
+  { key: 'externals',      entry: 'Externals' },
+  { key: 'academic',       entry: 'Academic' },
+  { key: 'stulife',        entry: 'Student Life' },
+  { key: 'communications', entry: 'Communications' },
+];
+
+const sections = await Promise.all(
+  depts.map(async (d) => ({
+    key: d.key,
+    data: (await getEntry(descCollection as any, d.entry)).data,
+  }))
+);
+---
+
+{sections.map((s) => (
+  <div id={`${s.key}${suffix}`} class="lg:space-y-4 space-y-2">
+    <SectionTitle title={s.data.id}/>
+    <SectionBody descrip={s.data.description}/>
+    <CardContainer dept={s.key} suffix={suffix}/>
+  </div>
+))}
