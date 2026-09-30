@@ -26,8 +26,8 @@
     {
         "id": "Ajay Antonio",
         "position": "Social Director",
-        "year": "",
-        "major": "",
+        "year": "3",
+        "major": "Microbiology + Immunology",
         "headshot": "headshots/stulife-headshots/Ajay_Antonio.jpg",
         "seq": "4"
     },
@@ -53,6 +53,14 @@
         "year": "3",
         "major": "Psychology",
         "headshot": "headshots/stulife-headshots/Chiasa_Guerrero.jpg",
+        "seq": "8"
+    },
+    {
+        "id": "Kitkat Gonzalez",
+        "position": "Events Logistics Director",
+        "year": "2",
+        "major": "Commerce",
+        "headshot": "headshots/stulife-headshots/Kitkat_Gonzalez.jpg",
         "seq": "8"
     }
 ]
