@@ -13,6 +13,35 @@
     --color-tan: #FFF7E2;
     --color-white: #F9F9FE;
 
+    /* Department colours */
+    --color-pres: #d5a6bd;
+    --color-pres-light: #F8C9DC;
+    --color-pres-bg: #F6DCE8;
+
+    --color-fin: #E0A800;
+    --color-fin-light: #FBEEB0;
+    --color-fin-bg: #FBF2C8;
+
+    --color-int: #9FC5E8;
+    --color-int-light: #C7D7FA;
+    --color-int-bg: #DCE7F8;
+
+    --color-ext: #C62828;
+    --color-ext-light: #F5C2C2;
+    --color-ext-bg: #F5D6D6;
+
+    --color-acad: #6B2FB3;
+    --color-acad-light: #DDC9F2;
+    --color-acad-bg: #E8DAF5;
+
+    --color-stu: #83bb6b;
+    --color-stu-light: #b8dbab;
+    --color-stu-bg: #D6EBD8;
+
+    --color-comm: #0F8B8D;
+    --color-comm-light: #BFE6E6;
+    --color-comm-bg: #D0EBEB;
+
     --font-acme: 'Acme', sans-serif;
     --font-ga-maamli: 'Ga Maamli', fantasy;
 }

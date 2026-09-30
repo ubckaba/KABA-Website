@@ -6,13 +6,32 @@ import { getCollection } from 'astro:content';
 const { dept } = Astro.props;
 const m: any[] = await getCollection(dept as any);
 const members = m.sort((a, b) => a.data.seq.valueOf() - b.data.seq.valueOf());
+
+const backgrounds: Record<string, string> = {
+  presidential:   'bg-pres-bg',
+  finance:        'bg-fin-bg',
+  internals:      'bg-int-bg',
+  externals:      'bg-ext-bg',
+  academic:       'bg-acad-bg',
+  stulife:        'bg-stu-bg',
+  communications: 'bg-comm-bg',
+};
+
+const bg = backgrounds[dept] ?? 'bg-tan';
 ---
 
 <div id="card-container"
-class="w-full h-min grid lg:grid-cols-4 grid-cols-3
-bg-tan border-1 md:border-2 border-black rounded-2xl lg:rounded-[20px]
-px-3 lg:px-36 py-3 lg:py-10 gap-x-0 lg:gap-y-4 gap-y-2">
-    {members.map(member => (
-        <MemberCard id={member.data.id} position={member.data.position} year={member.data.year} major={member.data.major} headshot={member.data.headshot} />
-    ))}
+class={`w-full h-min grid lg:grid-cols-4 grid-cols-3
+${bg} border-1 md:border-2 border-black rounded-2xl lg:rounded-[20px]
+px-3 lg:px-36 py-3 lg:py-10 gap-x-0 lg:gap-y-4 gap-y-2`}>
+  {members.map(member => (
+    <MemberCard
+      id={member.data.id}
+      position={member.data.position}
+      year={member.data.year}
+      major={member.data.major}
+      headshot={member.data.headshot}
+      dept={dept}
+    />
+  ))}
 </div>

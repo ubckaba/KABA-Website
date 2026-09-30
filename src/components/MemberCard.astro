@@ -1,52 +1,47 @@
 ---
 import '../styles/global.css';
 
-const id = Astro.props;
-const position = Astro.props;
-const year = Astro.props;
-const major = Astro.props;
-const headshot = Astro.props;
+const { id, position, year, major, headshot, dept } = Astro.props;
+
+const themes: Record<string, { top: string; bottom: string }> = {
+  presidential:   { top: 'bg-pres', bottom: 'bg-pres-light' },
+  finance:        { top: 'bg-fin',  bottom: 'bg-fin-light' },
+  internals:      { top: 'bg-int',  bottom: 'bg-int-light' },
+  externals:      { top: 'bg-ext',  bottom: 'bg-ext-light' },
+  academic:       { top: 'bg-acad', bottom: 'bg-acad-light' },
+  stulife:        { top: 'bg-stu',  bottom: 'bg-stu-light' },
+  communications: { top: 'bg-comm', bottom: 'bg-comm-light' },
+};
+
+const theme = themes[dept] ?? themes.presidential;
 ---
 
 <div id="member-card"
-class="flex flex-col
-gap-0
-divide-y-1 md:divide-y-2 divide-black">
-    <div id="member-top"
-    class="w-full h-4 lg:h-8
-    bg-navy-blue rounded-t-2xl lg:rounded-t-[20px] border-black border-t-1 md:border-t-2 border-x-1 md:border-x-2">
+  class="flex flex-col gap-0 divide-y-1 md:divide-y-2 divide-black">
 
-    </div>
+  <div id="member-top"
+    class={`w-full h-4 lg:h-8 ${theme.top} rounded-t-2xl lg:rounded-t-[20px] border-black border-t-1 md:border-t-2 border-x-1 md:border-x-2`}>
+  </div>
 
-    <div class="border-x-1 md:border-x-2 border-black
-    w-full h-min aspect-3/4 overflow-hidden">
-        <img src={Astro.props.headshot} loading="lazy" decoding="async"
-        class="w-full h-full object-cover"/>
-    </div>
+  <div class="border-x-1 md:border-x-2 border-black w-full h-min aspect-3/4 overflow-hidden">
+    <img src={headshot} loading="lazy" decoding="async"
+      class="w-full h-full object-cover"/>
+  </div>
 
-    <div id="member-bottom"
-    class="bg-red rounded-b-2xl lg:rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
-    w-full grid grid-cols-1
-    items-center justify-center py-1 lg:py-2 px-2 lg:px-4 gap-0
-    font-acme">
-        <a id="member-name"
-        class="lg:text-lg sm:text-base text-sm uppercase text-black">
-                {Astro.props.id}
-        </a>
-
-        <a id="member-position"
-        class="lg:text-lg sm:text-base text-sm text-brown">
-                {Astro.props.position}
-        </a>
-
-        <a id="member-year"
-        class="lg:text-base sm:text-sm text-[10px] text-brown">
-                Year {Astro.props.year}
-        </a>
-
-        <a id="member-major"
-        class="lg:text-base sm:text-sm text-[10px] text-brown">
-                {Astro.props.major}
-        </a>
-    </div>
+  <div id="member-bottom"
+    class={`${theme.bottom} rounded-b-2xl lg:rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
+      w-full grid grid-cols-1 items-center justify-center py-1 lg:py-2 px-2 lg:px-4 gap-0 font-acme`}>
+    <a id="member-name" class="lg:text-lg sm:text-base text-sm uppercase text-black">
+      {id}
+    </a>
+    <a id="member-position" class="lg:text-lg sm:text-base text-sm text-brown">
+      {position}
+    </a>
+    <a id="member-year" class="lg:text-base sm:text-sm text-[10px] text-brown">
+      Year {year}
+    </a>
+    <a id="member-major" class="lg:text-base sm:text-sm text-[10px] text-brown">
+      {major}
+    </a>
+  </div>
 </div>
