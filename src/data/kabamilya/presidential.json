@@ -1,42 +1,34 @@
 [
     {
-        "id": "Ela Chua",
+        "id": "Cass del Rosario",
         "position": "Co-President",
-        "year": "3",
-        "major": "Media Studies",
-        "headshot": "headshots/Ela_Chua.jpg",
+        "year": "5",
+        "major": "Philosophy + English",
+        "headshot": "headshots/presidential-headshots/Cass_del_Rosario.jpg",
         "seq": "1"
     },
     {
-        "id": "Jam Medenilla",
+        "id": "Jasmine Balayut",
         "position": "Co-President",
-        "year": "3",
-        "major": "Psychology + Creative Writing",
-        "headshot": "headshots/Jam_Medenilla.jpg",
+        "year": "4",
+        "major": "Political Science (minor in Law + Society)",
+        "headshot": "headshots/presidential-headshots/Jasmine_Balayut.jpg",
         "seq": "2"
     },
     {
-        "id": "Gabbie Chu",
+        "id": "Lana Navarro",
         "position": "Logistics Director",
-        "year": "3",
+        "year": "4",
         "major": "Psychology",
-        "headshot": "headshots/Gabbie_Chu.jpg",
+        "headshot": "headshots/presidential-headshots/Lana_Navarro.jpg",
         "seq": "3"
     },
     {
-        "id": "Graciela Licardo",
+        "id": "Anina Fernandez",
         "position": "Administrative Director",
-        "year": "4",
-        "major": "Global Resource Systems",
-        "headshot": "headshots/Graciela_Licardo.jpg",
-        "seq": "4"
-    },
-    {
-        "id": "Julia Flores",
-        "position": "Presidential Coordinator",
         "year": "2",
-        "major": "Biomedical Engineering",
-        "headshot": "headshots/Default.png",
-        "seq": "5"
+        "major": "Arts",
+        "headshot": "headshots/presidential-headshots/Anina_Fernandez.jpg",
+        "seq": "4"
     }
 ]
