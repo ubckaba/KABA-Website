@@ -1,58 +1,58 @@
 [
     {
-        "id": "Jasmine Baluyut",
+        "id": "Bethany Ventura Parel",
         "position": "VP Student Life",
-        "year": "3",
-        "major": "Political Science",
-        "headshot": "headshots/Jasmine_Baluyut.jpg",
+        "year": "4",
+        "major": "Political Science + International Relations",
+        "headshot": "headshots/stulife-headshots/Bethany_Ventura_Parel.jpg",
         "seq": "1"
     },
     {
-        "id": "Ilyas Ishenaliev",
+        "id": "Liam Nicolas",
         "position": "AVP Student Life",
-        "year": "2",
-        "major": "Commerce",
-        "headshot": "headshots/Ilyas_Ishenaliev.jpg",
+        "year": "3",
+        "major": "International Relations",
+        "headshot": "headshots/stulife-headshots/Liam_Nicolas.jpg",
         "seq": "2"
     },
     {
-        "id": "Liam Nicolas",
+        "id": "Raphael Buenvenida",
         "position": "Social Director",
-        "year": "2",
-        "major": "Arts",
-        "headshot": "headshots/Default.png",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/stulife-headshots/Raphael_Buenvenida.jpg",
         "seq": "3"
     },
     {
-        "id": "Princess dela Cruz",
+        "id": "Ajay Antonio",
         "position": "Social Director",
-        "year": "2",
-        "major": "Civil Engineering",
-        "headshot": "headshots/Princess_dela_Cruz.jpg",
+        "year": "",
+        "major": "",
+        "headshot": "headshots/stulife-headshots/Ajay_Antonio.jpg",
         "seq": "4"
     },
     {
-        "id": "Zaiden Grayda-Reyes",
+        "id": "Ohm Sakulmeesak",
         "position": "Inclusivity Director",
-        "year": "2",
-        "major": "Flute",
-        "headshot": "headshots/Zaiden_Grayda-Reyes.jpg",
+        "year": "5",
+        "major": "Kinesiology",
+        "headshot":  "headshots/stulife-headshots/Ohm_Sakulmeesak.jpg",
         "seq": "5"
     },
     {
-        "id": "Bethany Ventura Parel",
+        "id": "Karlis Birzneck",
         "position": "Inclusivity Director",
-        "year": "3",
-        "major": "Political Science + International Relations",
-        "headshot": "headshots/Bethany_Ventura_Parel.jpg",
+        "year": "2",
+        "major": "Arts",
+        "headshot": "headshots/stulife-headshots/Karlis_Birzneck.jpg",
         "seq": "6"
     },
     {
-        "id": "Aaliyah Cabiles",
-        "position": "Student Life Coordinator",
-        "year": "1",
-        "major": "Business & Computer Science",
-        "headshot": "headshots/Default.png",
+        "id": "Chiasa Guerrero",
+        "position": "Inclusivity Director",
+        "year": "3",
+        "major": "Psychology",
+        "headshot": "headshots/stulife-headshots/Chiasa_Guerrero.jpg",
         "seq": "8"
     }
 ]
