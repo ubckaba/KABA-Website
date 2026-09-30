@@ -1,58 +1,58 @@
 [
     {
-        "id": "Andrei Soller",
-        "position": "VP External",
+        "id": "Maxine Narciso",
+        "position": "Co-VP External",
         "year": "4",
-        "major": "Business Technology Management",
-        "headshot": "headshots/Default.png",
+        "major": "Psychology",
+        "headshot": "headshots/externals-headshots/Maxine_Narciso.jpg",
         "seq": "1"
     },
     {
         "id": "Margaret Concepcion",
-        "position": "Partnership Director",
-        "year": "2",
+        "position": "Co-VP External",
+        "year": "3",
         "major": "Food, Nutrition & Health",
-        "headshot": "headshots/Margaret_Concepcion.jpg",
+        "headshot": "headshots/externals-headshots/Margaret_Concepcion.jpg",
         "seq": "2"
     },
     {
-        "id": "Maxine Narciso",
-        "position": "Philanthropy Director",
-        "year": "3",
-        "major": "Psychology",
-        "headshot": "headshots/Default.png",
+        "id": "Astrid Sy",
+        "position": "Partnership Director",
+        "year": "",
+        "major": "",
+        "headshot": "headshots/externals-headshots/Astrid_Sy.jpg",
         "seq": "3"
     },
     {
-        "id": "Gerald James Briones",
+        "id": "Janten Custodio",
         "position": "Philanthropy Director",
         "year": "3",
-        "major": "Psychology",
-        "headshot": "headshots/Gerald_James_Briones.jpg",
+        "major": "Chemical + Biological Engineering",
+        "headshot": "headshots/externals-headshots/Janten_Custodio.jpg",
         "seq": "4"
     },
     {
-        "id": "Maya Juliette Ga",
-        "position": "Outreach Director",
-        "year": "4",
-        "major": "Psychology",
-        "headshot": "headshots/Maya_Juliette_Ga.jpg",
+        "id": "Isabella Lagman",
+        "position": "Philanthropy Director",
+        "year": "5",
+        "major": "Biology",
+        "headshot": "headshots/externals-headshots/Bella_Lagman.jpg",
         "seq": "5"
     },
     {
-        "id": "Astrid Sy",
-        "position": "External Coordinator",
-        "year": "1",
-        "major": "Commerce",
-        "headshot": "headshots/Default.png",
+        "id": "Jeremiah Talan",
+        "position": "Outreach Director",
+        "year": "3",
+        "major": "Materials Engineering",
+        "headshot": "headshots/externals-headshots/Jeremiah_Talan.jpg",
         "seq": "6"
     },
     {
-        "id": "Lenaum Palomo",
-        "position": "External Coordinator",
-        "year": "1",
-        "major": "Commerce",
-        "headshot": "headshots/Default.png",
+        "id": "Zaiden Graya-Reyes",
+        "position": "Outreach Director",
+        "year": "3",
+        "major": "Music",
+        "headshot": "headshots/externals-headshots/Zaiden_Grayda-Reyes.jpg",
         "seq": "7"
     }
 ]
