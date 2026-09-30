@@ -1,66 +1,50 @@
 [
     {
-        "id": "Lara Perez",
+        "id": "Anton Soller",
         "position": "VP Internal",
-        "year": "3",
-        "major": "Business Technology Management",
-        "headshot": "headshots/Lara_Perez.jpg",
+        "year": "4",
+        "major": "Political Science",
+        "headshot": "headshots/internals-headshots/Anton_Soller.jpg",
         "seq": "1"
     },
     {
-        "id": "Sofia Gonzalez",
+        "id": "Vaughn Tan",
         "position": "AVP Internal",
-        "year": "4",
-        "major": "Accounting + Business Technology Management",
-        "headshot": "headshots/Sofia_Gonzalez.jpg",
+        "year": "3",
+        "major": "English Literature",
+        "headshot": "headshots/internals-headshots/Vaughn_Tan.jpg",
         "seq": "2"
     },
     {
-        "id": "Miguel Rillera",
+        "id": "Ela Chua",
         "position": "Engagement Director",
-        "year": "3",
-        "major": "Electrical Engineering",
-        "headshot": "headshots/Miguel_Rillera.jpg",
+        "year": "4",
+        "major": "Media Studies",
+        "headshot": "headshots/internals-headshots/Ela_Chua.jpg",
         "seq": "3"
     },
     {
-        "id": "Anton Soller",
+        "id": "Ajay Sidhu",
         "position": "Engagement Director",
         "year": "3",
-        "major": "Political Science (Politics, Policy, and Administration)",
-        "headshot": "headshots/Anton_Soller.jpg",
+        "major": "Neuroscience",
+        "headshot": "headshots/internals-headshots/Ajay_Sidhu.jpg",
         "seq": "4"
     },
     {
-        "id": "Annika Silayan",
+        "id": "Andrei Lizo",
         "position": "Operations Director",
-        "year": "2",
-        "major": "Global Resource Systems",
-        "headshot": "headshots/Annika_Silayan.jpg",
+        "year": "3",
+        "major": "Sauder",
+        "headshot": "headshots/internals-headshots/Andrei_Lizo.jpg",
         "seq": "5"
     },
     {
-        "id": "Julianne Domingo",
+        "id": "Matthew Marbella",
         "position": "Membership Director",
         "year": "2",
-        "major": "Urban Studies",
-        "headshot": "headshots/Julianne_Domingo.jpg",
+        "major": "Commerce",
+        "headshot": "headshots/internals-headshots/Matthew_Marbella.jpg",
         "seq": "6"
-    },
-    {
-        "id": "Kitkat Gonzalez",
-        "position": "Internal Coordinator",
-        "year": "1",
-        "major": "Commerce",
-        "headshot": "headshots/Default.png",
-        "seq": "7"
-    },
-    {
-        "id": "Marcus Ty",
-        "position": "Internal Coordinator",
-        "year": "2",
-        "major": "Commerce",
-        "headshot": "headshots/Default.png",
-        "seq": "8"
     }
 ]
