@@ -1,34 +1,42 @@
 [
     {
-        "id": "Anton Bersamira",
+        "id": "Charlemagne Chua",
         "position": "VP Finance",
-        "year": "2",
-        "major": "Accounting/Finance",
-        "headshot": "headshots/Anton_Bersamira.jpg",
+        "year": "4",
+        "major": "Commerce (Accounting)",
+        "headshot": "headshots/finance-headshots/Charlemagne_Chua.jpg",
         "seq": "1"
     },
     {
-        "id": "Andrei Lizo",
+        "id": "Gabbie Chu",
         "position": "AVP Finance",
-        "year": "2",
-        "major": "Commerce",
-        "headshot": "headshots/Andrei_Lizo.jpg",
+        "year": "4",
+        "major": "Psychology",
+        "headshot": "headshots/Default.png",
         "seq": "2"
     },
     {
         "id": "Ivan Belyaev",
         "position": "Fundraising Director",
-        "year": "3",
+        "year": "4",
         "major": "Chemical & Biological Engineering",
-        "headshot": "headshots/Ivan_Belyaev.jpg",
+        "headshot": "headshots/Default.png",
         "seq": "3"
     },
     {
-        "id": "Phina Mary Tran",
-        "position": "Finance Coordinator",
-        "year": "2",
-        "major": "Commerce",
-        "headshot": "headshots/Default.png",
+        "id": "Marcus Ty",
+        "position": "Fundraising Director",
+        "year": "3",
+        "major": "Finance",
+        "headshot": "headshots/finance-headshots/Marcus_Ty.jpg",
         "seq": "4"
+    },
+    {
+        "id": "Phina Mary Tran",
+        "position": "Fundraising Director",
+        "year": "3",
+        "major": "Commerce (BTM + Marketing + BizLaw)",
+        "headshot": "headshots/finance-headshots/Phina_Tran.jpg",
+        "seq": "5"
     }
 ]
