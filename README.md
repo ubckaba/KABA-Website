@@ -4,8 +4,8 @@
 - [ ] Automatic Current Event push with Google Form integration **(Carlo)**
 
 ### Chores (Before end of Term 1)
-- [ ] Optimize image loading **(Carlo)**
-- [ ] Optimize fast image transfer **(Carlo)**
+- [x] Optimize image loading **(Carlo)**
+- [x] Optimize fast image transfer **(Carlo)**
 - [ ] Add documentation to GitHub repo and internal documents **(Alexi)**
 - [ ] Fix nav bar focus style bug **(Carlo)**
 - [ ] Revamp landing page **(Alexi)**
