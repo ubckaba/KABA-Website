@@ -1,35 +1,33 @@
 ---
 import '../styles/global.css';
-import Image from 'astro:assets';
+import OptimizedImage from './OptimizedImage.astro';
 
-const { text } = Astro.props;
-const { link } = Astro.props;
-const graphic = Astro.props;
+const { text, link, graphic } = Astro.props;
 ---
 
 <div id="event-card"
 class="flex flex-col
 gap-0
 divide-y-1 md:divide-y-2 divide-black">
-    <div id="event-top"
-    class="w-full h-4 lg:h-8
+<div id="event-top"
+class="w-full h-4 lg:h-8
     bg-navy-blue rounded-t-2xl lg:rounded-t-[20px] border-black border-t-1 md:border-t-2 border-x-1 md:border-x-2">
 
-    </div>
+</div>
 
-    <div class="border-x-1 md:border-x-2 border-black
+<div class="border-x-1 md:border-x-2 border-black
     w-full h-min aspect-3/4 overflow-hidden">
-        <img src={Astro.props.graphic}
-        class="w-full h-full object-cover"/>
-    </div>
+<OptimizedImage src={graphic} alt={text} width={600} eager
+class="w-full h-full object-cover"/>
+</div>
 
-    <div id="event-bottom"
-    class="bg-red rounded-b-2xl lg:rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
+<div id="event-bottom"
+class="bg-red rounded-b-2xl lg:rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
     w-full py-2 lg:py-4 px-2 lg:px-4 gap-0 text-center
     hover:bg-light-red transition-all duration-200">
-        <a id="event-button" href={link} target="_blank"
-        class="font-acme lg:text-lg sm:text-base text-sm uppercase text-black">
-                {text}
-        </a>
-    </div>
+<a id="event-button" href={link} target="_blank"
+class="font-acme lg:text-lg sm:text-base text-sm uppercase text-black">
+{text}
+</a>
+</div>
 </div>

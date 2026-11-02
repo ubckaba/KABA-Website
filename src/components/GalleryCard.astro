@@ -1,46 +1,43 @@
 ---
 import '../styles/global.css';
+import OptimizedImage from './OptimizedImage.astro';
 
-const { text } = Astro.props;
-const { link } = Astro.props;
-const cover = Astro.props;
-const image1 = Astro.props;
-const image2 = Astro.props;
+const { text, link, cover, image1, image2, alt = '' } = Astro.props;
 ---
 
 <div id="gallery-container"
 class="w-full h-min">
-    <div id="gallery-card"
-    class="bg-tan border-1 md:border-2 border-black w-full h-min rounded-2xl lg:rounded-[20px]
+<div id="gallery-card"
+class="bg-tan border-1 md:border-2 border-black w-full h-min rounded-2xl lg:rounded-[20px]
     lg:px-36 px-3 lg:py-10 py-3">
-        <div id="gallery"
-        class="grid grid-cols-10
+<div id="gallery"
+class="grid grid-cols-10
         gap-0
         divide-x-1 md:divide-x-2 divide-y-1 md:divide-y-2 divide-black">
-            <div id="gallery-top"
-            class="col-span-10 w-full lg:h-8 h-4
+<div id="gallery-top"
+class="col-span-10 w-full lg:h-8 h-4
             bg-navy-blue rounded-t-2xl lg:rounded-t-[20px] border-black border-t-1 md:border-t-2 border-x-1 md:border-x-2">
-            </div>
-            <div class="row-span-2 col-span-7 w-full h-min
+</div>
+<div class="row-span-2 col-span-7 w-full h-min
             border-black border-l-1 md:border-l-2">
-                <img src={Astro.props.cover} class="h-full w-full object-cover"/>
-            </div>
-            <div class="w-full h-full col-span-3
+<OptimizedImage src={cover} alt={alt} width={1200} class="h-full w-full object-cover"/>
+</div>
+<div class="w-full h-full col-span-3
             border-black border-r-1 md:border-r-2">
-                <img src={Astro.props.image1} class="h-full w-full object-cover"/>
-            </div>
-            <div class="w-full h-full col-span-3
+<OptimizedImage src={image1} alt={alt} width={600} class="h-full w-full object-cover"/>
+</div>
+<div class="w-full h-full col-span-3
             border-black border-r-1 md:border-r-2">
-                <img src={Astro.props.image2} class="h-full w-full object-cover"/>
-            </div>
-            <a id="gallery-button" href={link} target="_blank"
-            class="col-span-10 w-full h-min
+<OptimizedImage src={image2} alt={alt} width={600} class="h-full w-full object-cover"/>
+</div>
+<a id="gallery-button" href={link} target="_blank"
+class="col-span-10 w-full h-min
             items-center-safe justify-center-safe lg:py-4 py-2 lg:px-12 px-8 text-center
             bg-red rounded-b-2xl lg:rounded-b-[20px] border-black border-b-1 md:border-b-2 border-x-1 md:border-x-2
             text-black font-acme lg:text-lg sm:text-base text-sm uppercase
             hover:bg-light-red transition-all duration-200">
-                {text}
-            </a>
-        </div>
-    </div>
+{text}
+</a>
+</div>
+</div>
 </div>
