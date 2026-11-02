@@ -1,7 +1,15 @@
 ---
 import '../styles/global.css';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 const { id, position, year, major, headshot, dept } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/headshots/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG}',
+  { eager: true }
+);
+const photo = images[`/src/assets/${headshot}`]?.default;
 
 const themes: Record<string, { top: string; bottom: string }> = {
   presidential:   { top: 'bg-pres', bottom: 'bg-pres-light' },
@@ -24,8 +32,13 @@ const theme = themes[dept] ?? themes.presidential;
   </div>
 
   <div class="border-x-1 md:border-x-2 border-black w-full h-min aspect-3/4 overflow-hidden">
-    <img src={headshot} loading="lazy" decoding="async"
-      class="w-full h-full object-cover"/>
+    {photo ? (
+        <Image src={photo} alt={id} width={400} height={533}
+          class="w-full h-full object-cover" />
+      ) : (
+        <img src={headshot} alt={id} loading="lazy" decoding="async"
+          class="w-full h-full object-cover" />
+      )}
   </div>
 
   <div id="member-bottom"
