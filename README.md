@@ -1,7 +1,7 @@
 # Laundry List
 
 ### Due September 17
-- [ ] Automatic Current Event push with Google Form integration **(Carlo)**
+- [x] Automatic Current Event push with Google Form integration **(Carlo)**
 
 ### Chores (Before end of Term 1)
 - [x] Optimize image loading **(Carlo)**
